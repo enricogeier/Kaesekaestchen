@@ -1,0 +1,14 @@
+2a60927148abd1d33b818b535e306557
+::res://::1684778891
+icon.svg::CompressedTexture2D::199077222955858928::1684773483::1684773932::1::::<><>::
+README.md::TextFile::-1::1684773808::0::1::::<><>::
+world.gd::GDScript::-1::1684778829::0::1::::<>Node2D<>::
+world.tscn::PackedScene::1028380839893124605::1684778423::0::1::::<><>::res://world.gd
+::res://textures/::1684774896
+::res://textures/colors/::1684777381
+blue.png::CompressedTexture2D::8381133247449984633::1684777320::1684777381::1::::<><>::
+cyan.png::CompressedTexture2D::8067334985372688548::1684777331::1684777381::1::::<><>::
+green.png::CompressedTexture2D::2699458401467695784::1684777328::1684777381::1::::<><>::
+grey_dot.png::CompressedTexture2D::372786633039717361::1684776969::1684777125::1::::<><>::
+magenta.png::CompressedTexture2D::5105323064215201700::1684777333::1684777381::1::::<><>::
+yellow.png::CompressedTexture2D::2454269064483636980::1684777336::1684777381::1::::<><>::
