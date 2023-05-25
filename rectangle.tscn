@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://fmonu176ferd"]
+
+[ext_resource type="Script" path="res://rectangle.gd" id="1_fj8rn"]
+
+[node name="rectangle1" type="Sprite2D" groups=["Rectangle"]]
+z_index = -1
+position = Vector2(480, 252)
+scale = Vector2(2.75, 2.75)
+script = ExtResource("1_fj8rn")

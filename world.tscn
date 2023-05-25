@@ -1,6 +1,1128 @@
-[gd_scene load_steps=2 format=3 uid="uid://owfjug8ultld"]
+[gd_scene load_steps=6 format=3 uid="uid://owfjug8ultld"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_6ngeh"]
+[ext_resource type="Texture2D" uid="uid://fkt0hbiuh2rl" path="res://textures/colors/grey_dot.png" id="3_kj8db"]
+[ext_resource type="Texture2D" uid="uid://cf0dhhib66ve0" path="res://textures/colors/grey-export.png" id="3_m15sw"]
+[ext_resource type="PackedScene" uid="uid://3jtdse2ou3np" path="res://texture_button.tscn" id="4_aojx1"]
+[ext_resource type="PackedScene" uid="uid://fmonu176ferd" path="res://rectangle.tscn" id="5_ripcj"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_6ngeh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(384, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(384, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(384, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(384, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(384, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(576, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(768, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(960, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(1152, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+position = Vector2(1344, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D12" type="Sprite2D" parent="."]
+position = Vector2(1536, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D13" type="Sprite2D" parent="."]
+position = Vector2(1536, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D14" type="Sprite2D" parent="."]
+position = Vector2(1536, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D15" type="Sprite2D" parent="."]
+position = Vector2(1536, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D16" type="Sprite2D" parent="."]
+position = Vector2(1536, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D17" type="Sprite2D" parent="."]
+position = Vector2(1344, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D18" type="Sprite2D" parent="."]
+position = Vector2(1152, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D19" type="Sprite2D" parent="."]
+position = Vector2(960, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D20" type="Sprite2D" parent="."]
+position = Vector2(768, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D21" type="Sprite2D" parent="."]
+position = Vector2(576, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D22" type="Sprite2D" parent="."]
+position = Vector2(576, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D26" type="Sprite2D" parent="."]
+position = Vector2(768, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D27" type="Sprite2D" parent="."]
+position = Vector2(960, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D28" type="Sprite2D" parent="."]
+position = Vector2(1152, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D29" type="Sprite2D" parent="."]
+position = Vector2(1344, 348)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D30" type="Sprite2D" parent="."]
+position = Vector2(1344, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D31" type="Sprite2D" parent="."]
+position = Vector2(1344, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D32" type="Sprite2D" parent="."]
+position = Vector2(1152, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D33" type="Sprite2D" parent="."]
+position = Vector2(960, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D34" type="Sprite2D" parent="."]
+position = Vector2(768, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D35" type="Sprite2D" parent="."]
+position = Vector2(768, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D36" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D37" type="Sprite2D" parent="."]
+position = Vector2(1152, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D23" type="Sprite2D" parent="."]
+position = Vector2(576, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D24" type="Sprite2D" parent="."]
+position = Vector2(576, 732)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D25" type="Sprite2D" parent="."]
+position = Vector2(576, 924)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(576, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_kj8db")
+metadata/_edit_lock_ = true
+
+[node name="button07" type="Sprite2D" parent="."]
+position = Vector2(384, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton07" parent="button07" instance=ExtResource("4_aojx1")]
+offset_left = -178.0
+offset_right = 167.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button01" type="Sprite2D" parent="."]
+position = Vector2(480, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton01" parent="button01" instance=ExtResource("4_aojx1")]
+offset_left = -174.037
+offset_top = -33.7002
+offset_right = -62.0368
+offset_bottom = 31.2998
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button04" type="Sprite2D" parent="."]
+position = Vector2(1056, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton04" parent="button04" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button05" type="Sprite2D" parent="."]
+position = Vector2(1248, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton05" parent="button05" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button06" type="Sprite2D" parent="."]
+position = Vector2(1440, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton06" parent="button06" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button19" type="Sprite2D" parent="."]
+position = Vector2(1440, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton19" parent="button19" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button32" type="Sprite2D" parent="."]
+position = Vector2(1440, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton32" parent="button32" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button45" type="Sprite2D" parent="."]
+position = Vector2(1440, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton45" parent="button45" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button58" type="Sprite2D" parent="."]
+position = Vector2(1440, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton58" parent="button58" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button57" type="Sprite2D" parent="."]
+position = Vector2(1248, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton57" parent="button57" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button56" type="Sprite2D" parent="."]
+position = Vector2(1056, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton56" parent="button56" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button55" type="Sprite2D" parent="."]
+position = Vector2(864, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton55" parent="button55" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button54" type="Sprite2D" parent="."]
+position = Vector2(672, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton54" parent="button54" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button53" type="Sprite2D" parent="."]
+position = Vector2(480, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton53" parent="button53" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button40" type="Sprite2D" parent="."]
+position = Vector2(480, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton40" parent="button40" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button27" type="Sprite2D" parent="."]
+position = Vector2(480, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton27" parent="button27" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button14" type="Sprite2D" parent="."]
+position = Vector2(480, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton14" parent="button14" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button15" type="Sprite2D" parent="."]
+position = Vector2(672, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton15" parent="button15" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button16" type="Sprite2D" parent="."]
+position = Vector2(864, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton16" parent="button16" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button17" type="Sprite2D" parent="."]
+position = Vector2(1056, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton17" parent="button17" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button18" type="Sprite2D" parent="."]
+position = Vector2(1248, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton18" parent="button18" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button31" type="Sprite2D" parent="."]
+position = Vector2(1248, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton31" parent="button31" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button44" type="Sprite2D" parent="."]
+position = Vector2(1248, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton44" parent="button44" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button43" type="Sprite2D" parent="."]
+position = Vector2(1056, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton43" parent="button43" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button42" type="Sprite2D" parent="."]
+position = Vector2(864, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton42" parent="button42" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button41" type="Sprite2D" parent="."]
+position = Vector2(672, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton41" parent="button41" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button28" type="Sprite2D" parent="."]
+position = Vector2(672, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton28" parent="button28" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button29" type="Sprite2D" parent="."]
+position = Vector2(864, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton29" parent="button29" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button30" type="Sprite2D" parent="."]
+position = Vector2(1056, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton30" parent="button30" instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button03" type="Sprite2D" parent="."]
+position = Vector2(863, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton03" parent="button03" instance=ExtResource("4_aojx1")]
+offset_left = -180.0
+offset_top = -33.0
+offset_right = -68.0
+offset_bottom = 32.0
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button02" type="Sprite2D" parent="."]
+position = Vector2(671, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton02" parent="button02" instance=ExtResource("4_aojx1")]
+offset_left = -176.937
+offset_top = -33.1555
+offset_right = -64.9365
+offset_bottom = 31.8445
+scale = Vector2(3.20016, 1.03447)
+metadata/_edit_use_anchors_ = true
+
+[node name="button48" type="Sprite2D" parent="."]
+position = Vector2(768, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton48" parent="button48" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button49" type="Sprite2D" parent="."]
+position = Vector2(960, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton49" parent="button49" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button50" type="Sprite2D" parent="."]
+position = Vector2(1152, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton50" parent="button50" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button51" type="Sprite2D" parent="."]
+position = Vector2(1344, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton51" parent="button51" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button52" type="Sprite2D" parent="."]
+position = Vector2(1536, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton52" parent="button52" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button39" type="Sprite2D" parent="."]
+position = Vector2(1536, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton39" parent="button39" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button26" type="Sprite2D" parent="."]
+position = Vector2(1536, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton26" parent="button26" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button13" type="Sprite2D" parent="."]
+position = Vector2(1536, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton13" parent="button13" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button12" type="Sprite2D" parent="."]
+position = Vector2(1344, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton12" parent="button12" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button11" type="Sprite2D" parent="."]
+position = Vector2(1152, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton11" parent="button11" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button10" type="Sprite2D" parent="."]
+position = Vector2(960, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton10" parent="button10" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button09" type="Sprite2D" parent="."]
+position = Vector2(768, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton09" parent="button09" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button08" type="Sprite2D" parent="."]
+position = Vector2(576, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton08" parent="button08" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ButtonSprite28" type="Sprite2D" parent="."]
+position = Vector2(576, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="TextureButton6" parent="ButtonSprite28" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button34" type="Sprite2D" parent="."]
+position = Vector2(576, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton34" parent="button34" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button35" type="Sprite2D" parent="."]
+position = Vector2(768, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton35" parent="button35" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button36" type="Sprite2D" parent="."]
+position = Vector2(960, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton36" parent="button36" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button37" type="Sprite2D" parent="."]
+position = Vector2(1152, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton37" parent="button37" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button38" type="Sprite2D" parent="."]
+position = Vector2(1344, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton38" parent="button38" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button25" type="Sprite2D" parent="."]
+position = Vector2(1344, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton25" parent="button25" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button24" type="Sprite2D" parent="."]
+position = Vector2(1152, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton24" parent="button24" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button23" type="Sprite2D" parent="."]
+position = Vector2(960, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton23" parent="button23" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button22" type="Sprite2D" parent="."]
+position = Vector2(768, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton22" parent="button22" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button21" type="Sprite2D" parent="."]
+position = Vector2(576, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton21" parent="button21" instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button47" type="Sprite2D" parent="."]
+position = Vector2(576, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton47" parent="button47" instance=ExtResource("4_aojx1")]
+offset_left = -178.075
+offset_top = -34.0
+offset_right = 177.925
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="button20" type="Sprite2D" parent="."]
+position = Vector2(384, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton20" parent="button20" instance=ExtResource("4_aojx1")]
+offset_left = -178.09
+offset_top = -33.2632
+offset_right = 177.91
+offset_bottom = 33.7368
+metadata/_edit_use_anchors_ = true
+
+[node name="button33" type="Sprite2D" parent="."]
+position = Vector2(384, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton33" parent="button33" instance=ExtResource("4_aojx1")]
+offset_left = -178.089
+offset_top = -33.2632
+offset_right = 177.911
+offset_bottom = 33.7368
+metadata/_edit_use_anchors_ = true
+
+[node name="button46" type="Sprite2D" parent="."]
+position = Vector2(384, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+metadata/_edit_lock_ = true
+
+[node name="tbutton46" parent="button46" instance=ExtResource("4_aojx1")]
+offset_left = -178.0
+offset_top = -34.0
+offset_right = 178.0
+offset_bottom = 34.0
+metadata/_edit_use_anchors_ = true
+
+[node name="rectangle1" parent="." instance=ExtResource("5_ripcj")]
+
+[node name="rectangle2" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(672, 252)
+
+[node name="rectangle3" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(864, 252)
+
+[node name="rectangle4" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 252)
+
+[node name="rectangle5" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 252)
+
+[node name="rectangle6" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 252)
+
+[node name="rectangle7" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 444)
+
+[node name="rectangle8" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 636)
+
+[node name="rectangle9" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 828)
+
+[node name="rectangle10" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 828)
+
+[node name="rectangle11" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 828)
+
+[node name="rectangle12" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(864, 828)
+
+[node name="rectangle13" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(672, 828)
+
+[node name="rectangle14" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(480, 828)
+
+[node name="rectangle15" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(480, 636)
+
+[node name="rectangle16" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(480, 444)
+
+[node name="rectangle17" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(672, 444)
+
+[node name="rectangle18" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(864, 444)
+
+[node name="rectangle19" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 444)
+
+[node name="rectangle20" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 444)
+
+[node name="rectangle21" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 636)
+
+[node name="rectangle22" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 636)
+
+[node name="rectangle23" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(864, 636)
+
+[node name="rectangle24" parent="." instance=ExtResource("5_ripcj")]
+position = Vector2(672, 636)
