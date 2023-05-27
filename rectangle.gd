@@ -6,7 +6,6 @@ extends Sprite2D
 @export var bottom : TextureButton
 
 var alreadyDrawn = false
-var sprite_texture = preload("res://textures/colors/blue.png")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,7 +18,8 @@ func _process(_delta):
 
 
 func check():
-	if !alreadyDrawn:
+	if !alreadyDrawn && left != null && top != null && right != null && bottom != null:
 		if left.already_selected && top.already_selected && right.already_selected && bottom.already_selected:
-			self.set_texture(sprite_texture)
+			Stats.setColor(self, Stats.player_on_turn.color)
+			Stats.player_on_turn.rectangles += 1
 			self.alreadyDrawn = true

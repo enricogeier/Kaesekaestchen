@@ -1,10 +1,243 @@
-[gd_scene load_steps=6 format=3 uid="uid://owfjug8ultld"]
+[gd_scene load_steps=65 format=3 uid="uid://owfjug8ultld"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_6ngeh"]
 [ext_resource type="Texture2D" uid="uid://fkt0hbiuh2rl" path="res://textures/colors/grey_dot.png" id="3_kj8db"]
 [ext_resource type="Texture2D" uid="uid://cf0dhhib66ve0" path="res://textures/colors/grey-export.png" id="3_m15sw"]
+[ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="3_w4k55"]
 [ext_resource type="PackedScene" uid="uid://3jtdse2ou3np" path="res://texture_button.tscn" id="4_aojx1"]
 [ext_resource type="PackedScene" uid="uid://fmonu176ferd" path="res://rectangle.tscn" id="5_ripcj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jj1s1"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4n5bl"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_knwcx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wg8xt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e221l"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_53qdq"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bd418"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ilyd0"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_a80tu"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j46qn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uuxw3"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ky6gn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_encga"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kfxtc"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6tls"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0cgms"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_64rdn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3lbgh"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xjt7u"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tsu8i"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_un5wt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xqffb"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2e1tr"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yb3ya"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2c6lm"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bygte"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ikgbc"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3m764"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hxrmt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8aiqj"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bs7ff"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_w134r"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1wgv6"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wtrh4"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8a58s"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_86sco"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hfqaj"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x7idv"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_swp7l"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rw6wx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_du0ll"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vqw5o"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6xs8n"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3rbjp"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gmlw1"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ndpjy"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_airwr"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vmw42"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j62cp"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dl75r"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ptobs"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b77tl"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cdhjg"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8p7ce"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b3piv"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h5sbx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dai8a"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xa8uq"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_6ngeh")
@@ -231,898 +464,1195 @@ scale = Vector2(0.5, 0.5)
 texture = ExtResource("3_kj8db")
 metadata/_edit_lock_ = true
 
-[node name="button07" type="Sprite2D" parent="."]
+[node name="rectangle1" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+left = NodePath("../Button/button07/tbutton07")
+top = NodePath("../Button/button01/tbutton01")
+right = NodePath("../Button/button08/tbutton08")
+bottom = NodePath("../Button/button14/tbutton14")
+
+[node name="rectangle2" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(672, 252)
+left = NodePath("../Button/button08/tbutton08")
+top = NodePath("../Button/button02/tbutton02")
+right = NodePath("../Button/button09/tbutton09")
+bottom = NodePath("../Button/button15/tbutton15")
+
+[node name="rectangle3" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(864, 252)
+left = NodePath("../Button/button09/tbutton09")
+top = NodePath("../Button/button03/tbutton03")
+right = NodePath("../Button/button10/tbutton10")
+bottom = NodePath("../Button/button16/tbutton16")
+
+[node name="rectangle4" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 252)
+left = NodePath("../Button/button10/tbutton10")
+top = NodePath("../Button/button04/tbutton04")
+right = NodePath("../Button/button11/tbutton11")
+bottom = NodePath("../Button/button17/tbutton17")
+
+[node name="rectangle5" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 252)
+left = NodePath("../Button/button11/tbutton11")
+top = NodePath("../Button/button05/tbutton05")
+right = NodePath("../Button/button12/tbutton12")
+bottom = NodePath("../Button/button18/tbutton18")
+
+[node name="rectangle6" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 252)
+left = NodePath("../Button/button12/tbutton12")
+top = NodePath("../Button/button06/tbutton06")
+right = NodePath("../Button/button13/tbutton13")
+bottom = NodePath("../Button/button19/tbutton19")
+
+[node name="rectangle7" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 444)
+left = NodePath("../Button/button25/tbutton25")
+top = NodePath("../Button/button19/tbutton19")
+right = NodePath("../Button/button26/tbutton26")
+bottom = NodePath("../Button/button32/tbutton32")
+
+[node name="rectangle8" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 636)
+left = NodePath("../Button/button38/tbutton38")
+top = NodePath("../Button/button32/tbutton32")
+right = NodePath("../Button/button39/tbutton39")
+bottom = NodePath("../Button/button45/tbutton45")
+
+[node name="rectangle9" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1440, 828)
+left = NodePath("../Button/button51/tbutton51")
+top = NodePath("../Button/button45/tbutton45")
+right = NodePath("../Button/button52/tbutton52")
+bottom = NodePath("../Button/button58/tbutton58")
+
+[node name="rectangle10" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 828)
+left = NodePath("../Button/button50/tbutton50")
+top = NodePath("../Button/button44/tbutton44")
+right = NodePath("../Button/button51/tbutton51")
+bottom = NodePath("../Button/button57/tbutton57")
+
+[node name="rectangle11" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 828)
+left = NodePath("../Button/button49/tbutton49")
+top = NodePath("../Button/button43/tbutton43")
+right = NodePath("../Button/button50/tbutton50")
+bottom = NodePath("../Button/button56/tbutton56")
+
+[node name="rectangle12" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(864, 828)
+left = NodePath("../Button/button48/tbutton48")
+top = NodePath("../Button/button42/tbutton42")
+right = NodePath("../Button/button49/tbutton49")
+bottom = NodePath("../Button/button55/tbutton55")
+
+[node name="rectangle13" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(672, 828)
+left = NodePath("../Button/button47/tbutton47")
+top = NodePath("../Button/button41/tbutton41")
+right = NodePath("../Button/button48/tbutton48")
+bottom = NodePath("../Button/button54/tbutton54")
+
+[node name="rectangle14" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(480, 828)
+left = NodePath("../Button/button46/tbutton46")
+top = NodePath("../Button/button40/tbutton40")
+right = NodePath("../Button/button47/tbutton47")
+bottom = NodePath("../Button/button53/tbutton53")
+
+[node name="rectangle15" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(480, 636)
+left = NodePath("../Button/button33/tbutton33")
+top = NodePath("../Button/button27/tbutton27")
+right = NodePath("../Button/button34/tbutton34")
+bottom = NodePath("../Button/button40/tbutton40")
+
+[node name="rectangle16" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(480, 444)
+left = NodePath("../Button/button20/tbutton20")
+top = NodePath("../Button/button14/tbutton14")
+right = NodePath("../Button/button21/tbutton21")
+bottom = NodePath("../Button/button27/tbutton27")
+
+[node name="rectangle17" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(672, 444)
+left = NodePath("../Button/button21/tbutton21")
+top = NodePath("../Button/button15/tbutton15")
+right = NodePath("../Button/button22/tbutton22")
+bottom = NodePath("../Button/button28/tbutton28")
+
+[node name="rectangle18" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(864, 444)
+left = NodePath("../Button/button22/tbutton22")
+top = NodePath("../Button/button16/tbutton16")
+right = NodePath("../Button/button23/tbutton23")
+bottom = NodePath("../Button/button29/tbutton29")
+
+[node name="rectangle19" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 444)
+left = NodePath("../Button/button23/tbutton23")
+top = NodePath("../Button/button17/tbutton17")
+right = NodePath("../Button/button24/tbutton24")
+bottom = NodePath("../Button/button30/tbutton30")
+
+[node name="rectangle20" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 444)
+left = NodePath("../Button/button24/tbutton24")
+top = NodePath("../Button/button18/tbutton18")
+right = NodePath("../Button/button25/tbutton25")
+bottom = NodePath("../Button/button31/tbutton31")
+
+[node name="rectangle21" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1248, 636)
+left = NodePath("../Button/button37/tbutton37")
+top = NodePath("../Button/button31/tbutton31")
+right = NodePath("../Button/button38/tbutton38")
+bottom = NodePath("../Button/button44/tbutton44")
+
+[node name="rectangle22" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(1056, 636)
+left = NodePath("../Button/button36/tbutton36")
+top = NodePath("../Button/button30/tbutton30")
+right = NodePath("../Button/button37/tbutton37")
+bottom = NodePath("../Button/button43/tbutton43")
+
+[node name="rectangle23" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(864, 636)
+left = NodePath("../Button/button35/tbutton35")
+top = NodePath("../Button/button29/tbutton29")
+right = NodePath("../Button/button36/tbutton36")
+bottom = NodePath("../Button/button42/tbutton42")
+
+[node name="rectangle24" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+position = Vector2(672, 636)
+left = NodePath("../Button/button34/tbutton34")
+top = NodePath("../Button/button28/tbutton28")
+right = NodePath("../Button/button35/tbutton35")
+bottom = NodePath("../Button/button41/tbutton41")
+
+[node name="Button" type="Node2D" parent="."]
+
+[node name="button07" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_jj1s1")
 position = Vector2(384, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton07" parent="button07" instance=ExtResource("4_aojx1")]
+[node name="tbutton07" parent="Button/button07" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.0
 offset_right = 167.0
+rectangle_1 = NodePath("../../../rectangle1")
 metadata/_edit_use_anchors_ = true
 
-[node name="button01" type="Sprite2D" parent="."]
+[node name="button01" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_4n5bl")
 position = Vector2(480, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton01" parent="button01" instance=ExtResource("4_aojx1")]
+[node name="tbutton01" parent="Button/button01" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -174.037
 offset_top = -33.7002
 offset_right = -62.0368
 offset_bottom = 31.2998
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle1")
 metadata/_edit_use_anchors_ = true
 
-[node name="button04" type="Sprite2D" parent="."]
+[node name="button04" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_knwcx")
 position = Vector2(1056, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton04" parent="button04" instance=ExtResource("4_aojx1")]
+[node name="tbutton04" parent="Button/button04" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle4")
 metadata/_edit_use_anchors_ = true
 
-[node name="button05" type="Sprite2D" parent="."]
+[node name="button05" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_wg8xt")
 position = Vector2(1248, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton05" parent="button05" instance=ExtResource("4_aojx1")]
+[node name="tbutton05" parent="Button/button05" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle5")
 metadata/_edit_use_anchors_ = true
 
-[node name="button06" type="Sprite2D" parent="."]
+[node name="button06" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_e221l")
 position = Vector2(1440, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton06" parent="button06" instance=ExtResource("4_aojx1")]
+[node name="tbutton06" parent="Button/button06" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle6")
 metadata/_edit_use_anchors_ = true
 
-[node name="button19" type="Sprite2D" parent="."]
+[node name="button19" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_53qdq")
 position = Vector2(1440, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton19" parent="button19" instance=ExtResource("4_aojx1")]
+[node name="tbutton19" parent="Button/button19" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle6")
+rectangle_2 = NodePath("../../../rectangle7")
 metadata/_edit_use_anchors_ = true
 
-[node name="button32" type="Sprite2D" parent="."]
+[node name="button32" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bd418")
 position = Vector2(1440, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton32" parent="button32" instance=ExtResource("4_aojx1")]
+[node name="tbutton32" parent="Button/button32" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle7")
+rectangle_2 = NodePath("../../../rectangle8")
 metadata/_edit_use_anchors_ = true
 
-[node name="button45" type="Sprite2D" parent="."]
+[node name="button45" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ilyd0")
 position = Vector2(1440, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton45" parent="button45" instance=ExtResource("4_aojx1")]
+[node name="tbutton45" parent="Button/button45" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle8")
+rectangle_2 = NodePath("../../../rectangle9")
 metadata/_edit_use_anchors_ = true
 
-[node name="button58" type="Sprite2D" parent="."]
+[node name="button58" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_a80tu")
 position = Vector2(1440, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton58" parent="button58" instance=ExtResource("4_aojx1")]
+[node name="tbutton58" parent="Button/button58" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle9")
 metadata/_edit_use_anchors_ = true
 
-[node name="button57" type="Sprite2D" parent="."]
+[node name="button57" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_j46qn")
 position = Vector2(1248, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton57" parent="button57" instance=ExtResource("4_aojx1")]
+[node name="tbutton57" parent="Button/button57" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle10")
 metadata/_edit_use_anchors_ = true
 
-[node name="button56" type="Sprite2D" parent="."]
+[node name="button56" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_uuxw3")
 position = Vector2(1056, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton56" parent="button56" instance=ExtResource("4_aojx1")]
+[node name="tbutton56" parent="Button/button56" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle11")
 metadata/_edit_use_anchors_ = true
 
-[node name="button55" type="Sprite2D" parent="."]
+[node name="button55" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ky6gn")
 position = Vector2(864, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton55" parent="button55" instance=ExtResource("4_aojx1")]
+[node name="tbutton55" parent="Button/button55" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle12")
 metadata/_edit_use_anchors_ = true
 
-[node name="button54" type="Sprite2D" parent="."]
+[node name="button54" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_encga")
 position = Vector2(672, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton54" parent="button54" instance=ExtResource("4_aojx1")]
+[node name="tbutton54" parent="Button/button54" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle13")
 metadata/_edit_use_anchors_ = true
 
-[node name="button53" type="Sprite2D" parent="."]
+[node name="button53" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_kfxtc")
 position = Vector2(480, 924)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton53" parent="button53" instance=ExtResource("4_aojx1")]
+[node name="tbutton53" parent="Button/button53" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle14")
 metadata/_edit_use_anchors_ = true
 
-[node name="button40" type="Sprite2D" parent="."]
+[node name="button40" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6tls")
 position = Vector2(480, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton40" parent="button40" instance=ExtResource("4_aojx1")]
+[node name="tbutton40" parent="Button/button40" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle15")
+rectangle_2 = NodePath("../../../rectangle14")
 metadata/_edit_use_anchors_ = true
 
-[node name="button27" type="Sprite2D" parent="."]
+[node name="button27" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_0cgms")
 position = Vector2(480, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton27" parent="button27" instance=ExtResource("4_aojx1")]
+[node name="tbutton27" parent="Button/button27" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle16")
+rectangle_2 = NodePath("../../../rectangle15")
 metadata/_edit_use_anchors_ = true
 
-[node name="button14" type="Sprite2D" parent="."]
+[node name="button14" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_64rdn")
 position = Vector2(480, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton14" parent="button14" instance=ExtResource("4_aojx1")]
+[node name="tbutton14" parent="Button/button14" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle1")
+rectangle_2 = NodePath("../../../rectangle16")
 metadata/_edit_use_anchors_ = true
 
-[node name="button15" type="Sprite2D" parent="."]
+[node name="button15" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3lbgh")
 position = Vector2(672, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton15" parent="button15" instance=ExtResource("4_aojx1")]
+[node name="tbutton15" parent="Button/button15" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle2")
+rectangle_2 = NodePath("../../../rectangle17")
 metadata/_edit_use_anchors_ = true
 
-[node name="button16" type="Sprite2D" parent="."]
+[node name="button16" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xjt7u")
 position = Vector2(864, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton16" parent="button16" instance=ExtResource("4_aojx1")]
+[node name="tbutton16" parent="Button/button16" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle3")
+rectangle_2 = NodePath("../../../rectangle18")
 metadata/_edit_use_anchors_ = true
 
-[node name="button17" type="Sprite2D" parent="."]
+[node name="button17" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_tsu8i")
 position = Vector2(1056, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton17" parent="button17" instance=ExtResource("4_aojx1")]
+[node name="tbutton17" parent="Button/button17" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle4")
+rectangle_2 = NodePath("../../../rectangle19")
 metadata/_edit_use_anchors_ = true
 
-[node name="button18" type="Sprite2D" parent="."]
+[node name="button18" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_un5wt")
 position = Vector2(1248, 348)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton18" parent="button18" instance=ExtResource("4_aojx1")]
+[node name="tbutton18" parent="Button/button18" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle5")
+rectangle_2 = NodePath("../../../rectangle20")
 metadata/_edit_use_anchors_ = true
 
-[node name="button31" type="Sprite2D" parent="."]
+[node name="button31" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xqffb")
 position = Vector2(1248, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton31" parent="button31" instance=ExtResource("4_aojx1")]
+[node name="tbutton31" parent="Button/button31" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle20")
+rectangle_2 = NodePath("../../../rectangle21")
 metadata/_edit_use_anchors_ = true
 
-[node name="button44" type="Sprite2D" parent="."]
+[node name="button44" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_2e1tr")
 position = Vector2(1248, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton44" parent="button44" instance=ExtResource("4_aojx1")]
+[node name="tbutton44" parent="Button/button44" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle21")
+rectangle_2 = NodePath("../../../rectangle10")
 metadata/_edit_use_anchors_ = true
 
-[node name="button43" type="Sprite2D" parent="."]
+[node name="button43" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_yb3ya")
 position = Vector2(1056, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton43" parent="button43" instance=ExtResource("4_aojx1")]
+[node name="tbutton43" parent="Button/button43" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle22")
+rectangle_2 = NodePath("../../../rectangle11")
 metadata/_edit_use_anchors_ = true
 
-[node name="button42" type="Sprite2D" parent="."]
+[node name="button42" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_2c6lm")
 position = Vector2(864, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton42" parent="button42" instance=ExtResource("4_aojx1")]
+[node name="tbutton42" parent="Button/button42" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle23")
+rectangle_2 = NodePath("../../../rectangle12")
 metadata/_edit_use_anchors_ = true
 
-[node name="button41" type="Sprite2D" parent="."]
+[node name="button41" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bygte")
 position = Vector2(672, 732)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton41" parent="button41" instance=ExtResource("4_aojx1")]
+[node name="tbutton41" parent="Button/button41" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle24")
+rectangle_2 = NodePath("../../../rectangle13")
 metadata/_edit_use_anchors_ = true
 
-[node name="button28" type="Sprite2D" parent="."]
+[node name="button28" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ikgbc")
 position = Vector2(672, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton28" parent="button28" instance=ExtResource("4_aojx1")]
+[node name="tbutton28" parent="Button/button28" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle17")
+rectangle_2 = NodePath("../../../rectangle24")
 metadata/_edit_use_anchors_ = true
 
-[node name="button29" type="Sprite2D" parent="."]
+[node name="button29" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3m764")
 position = Vector2(864, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton29" parent="button29" instance=ExtResource("4_aojx1")]
+[node name="tbutton29" parent="Button/button29" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle18")
+rectangle_2 = NodePath("../../../rectangle23")
 metadata/_edit_use_anchors_ = true
 
-[node name="button30" type="Sprite2D" parent="."]
+[node name="button30" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hxrmt")
 position = Vector2(1056, 540)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton30" parent="button30" instance=ExtResource("4_aojx1")]
+[node name="tbutton30" parent="Button/button30" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -179.0
 offset_top = -33.0
 offset_right = -67.0
 offset_bottom = 31.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle19")
+rectangle_2 = NodePath("../../../rectangle22")
 metadata/_edit_use_anchors_ = true
 
-[node name="button03" type="Sprite2D" parent="."]
+[node name="button03" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8aiqj")
 position = Vector2(863, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton03" parent="button03" instance=ExtResource("4_aojx1")]
+[node name="tbutton03" parent="Button/button03" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -180.0
 offset_top = -33.0
 offset_right = -68.0
 offset_bottom = 32.0
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle3")
 metadata/_edit_use_anchors_ = true
 
-[node name="button02" type="Sprite2D" parent="."]
+[node name="button02" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bs7ff")
 position = Vector2(671, 156)
 rotation = -1.5708
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton02" parent="button02" instance=ExtResource("4_aojx1")]
+[node name="tbutton02" parent="Button/button02" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -176.937
 offset_top = -33.1555
 offset_right = -64.9365
 offset_bottom = 31.8445
 scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle2")
 metadata/_edit_use_anchors_ = true
 
-[node name="button48" type="Sprite2D" parent="."]
+[node name="button48" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_w134r")
 position = Vector2(768, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton48" parent="button48" instance=ExtResource("4_aojx1")]
+[node name="tbutton48" parent="Button/button48" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle13")
+rectangle_2 = NodePath("../../../rectangle12")
 metadata/_edit_use_anchors_ = true
 
-[node name="button49" type="Sprite2D" parent="."]
+[node name="button49" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_1wgv6")
 position = Vector2(960, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton49" parent="button49" instance=ExtResource("4_aojx1")]
+[node name="tbutton49" parent="Button/button49" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle12")
+rectangle_2 = NodePath("../../../rectangle11")
 metadata/_edit_use_anchors_ = true
 
-[node name="button50" type="Sprite2D" parent="."]
+[node name="button50" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_wtrh4")
 position = Vector2(1152, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton50" parent="button50" instance=ExtResource("4_aojx1")]
+[node name="tbutton50" parent="Button/button50" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle11")
+rectangle_2 = NodePath("../../../rectangle10")
 metadata/_edit_use_anchors_ = true
 
-[node name="button51" type="Sprite2D" parent="."]
+[node name="button51" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8a58s")
 position = Vector2(1344, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton51" parent="button51" instance=ExtResource("4_aojx1")]
+[node name="tbutton51" parent="Button/button51" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle10")
+rectangle_2 = NodePath("../../../rectangle9")
 metadata/_edit_use_anchors_ = true
 
-[node name="button52" type="Sprite2D" parent="."]
+[node name="button52" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_86sco")
 position = Vector2(1536, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton52" parent="button52" instance=ExtResource("4_aojx1")]
+[node name="tbutton52" parent="Button/button52" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle9")
 metadata/_edit_use_anchors_ = true
 
-[node name="button39" type="Sprite2D" parent="."]
+[node name="button39" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hfqaj")
 position = Vector2(1536, 636)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton39" parent="button39" instance=ExtResource("4_aojx1")]
+[node name="tbutton39" parent="Button/button39" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle8")
 metadata/_edit_use_anchors_ = true
 
-[node name="button26" type="Sprite2D" parent="."]
+[node name="button26" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_x7idv")
 position = Vector2(1536, 444)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton26" parent="button26" instance=ExtResource("4_aojx1")]
+[node name="tbutton26" parent="Button/button26" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle7")
 metadata/_edit_use_anchors_ = true
 
-[node name="button13" type="Sprite2D" parent="."]
+[node name="button13" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_swp7l")
 position = Vector2(1536, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton13" parent="button13" instance=ExtResource("4_aojx1")]
+[node name="tbutton13" parent="Button/button13" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle6")
 metadata/_edit_use_anchors_ = true
 
-[node name="button12" type="Sprite2D" parent="."]
+[node name="button12" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_rw6wx")
 position = Vector2(1344, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton12" parent="button12" instance=ExtResource("4_aojx1")]
+[node name="tbutton12" parent="Button/button12" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle5")
+rectangle_2 = NodePath("../../../rectangle6")
 metadata/_edit_use_anchors_ = true
 
-[node name="button11" type="Sprite2D" parent="."]
+[node name="button11" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_du0ll")
 position = Vector2(1152, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton11" parent="button11" instance=ExtResource("4_aojx1")]
+[node name="tbutton11" parent="Button/button11" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle4")
+rectangle_2 = NodePath("../../../rectangle5")
 metadata/_edit_use_anchors_ = true
 
-[node name="button10" type="Sprite2D" parent="."]
+[node name="button10" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_vqw5o")
 position = Vector2(960, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton10" parent="button10" instance=ExtResource("4_aojx1")]
+[node name="tbutton10" parent="Button/button10" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle3")
+rectangle_2 = NodePath("../../../rectangle4")
 metadata/_edit_use_anchors_ = true
 
-[node name="button09" type="Sprite2D" parent="."]
+[node name="button09" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_6xs8n")
 position = Vector2(768, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton09" parent="button09" instance=ExtResource("4_aojx1")]
+[node name="tbutton09" parent="Button/button09" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle2")
+rectangle_2 = NodePath("../../../rectangle3")
 metadata/_edit_use_anchors_ = true
 
-[node name="button08" type="Sprite2D" parent="."]
+[node name="button08" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3rbjp")
 position = Vector2(576, 252)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton08" parent="button08" instance=ExtResource("4_aojx1")]
+[node name="tbutton08" parent="Button/button08" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle1")
+rectangle_2 = NodePath("../../../rectangle2")
 metadata/_edit_use_anchors_ = true
 
-[node name="ButtonSprite28" type="Sprite2D" parent="."]
-position = Vector2(576, 444)
-scale = Vector2(0.0898424, 2.375)
-texture = ExtResource("3_m15sw")
-metadata/_edit_lock_ = true
-
-[node name="TextureButton6" parent="ButtonSprite28" instance=ExtResource("4_aojx1")]
-offset_left = -178.076
-offset_top = -34.0
-offset_right = 177.924
-offset_bottom = 34.0
-metadata/_edit_use_anchors_ = true
-
-[node name="button34" type="Sprite2D" parent="."]
+[node name="button34" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_gmlw1")
 position = Vector2(576, 635)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton34" parent="button34" instance=ExtResource("4_aojx1")]
+[node name="tbutton34" parent="Button/button34" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle15")
+rectangle_2 = NodePath("../../../rectangle24")
 metadata/_edit_use_anchors_ = true
 
-[node name="button35" type="Sprite2D" parent="."]
+[node name="button35" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ndpjy")
 position = Vector2(768, 635)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton35" parent="button35" instance=ExtResource("4_aojx1")]
+[node name="tbutton35" parent="Button/button35" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle24")
+rectangle_2 = NodePath("../../../rectangle23")
 metadata/_edit_use_anchors_ = true
 
-[node name="button36" type="Sprite2D" parent="."]
+[node name="button36" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_airwr")
 position = Vector2(960, 635)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton36" parent="button36" instance=ExtResource("4_aojx1")]
+[node name="tbutton36" parent="Button/button36" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle23")
+rectangle_2 = NodePath("../../../rectangle22")
 metadata/_edit_use_anchors_ = true
 
-[node name="button37" type="Sprite2D" parent="."]
+[node name="button37" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_vmw42")
 position = Vector2(1152, 635)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton37" parent="button37" instance=ExtResource("4_aojx1")]
+[node name="tbutton37" parent="Button/button37" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle22")
+rectangle_2 = NodePath("../../../rectangle21")
 metadata/_edit_use_anchors_ = true
 
-[node name="button38" type="Sprite2D" parent="."]
+[node name="button38" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_j62cp")
 position = Vector2(1344, 635)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton38" parent="button38" instance=ExtResource("4_aojx1")]
+[node name="tbutton38" parent="Button/button38" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle21")
+rectangle_2 = NodePath("../../../rectangle8")
 metadata/_edit_use_anchors_ = true
 
-[node name="button25" type="Sprite2D" parent="."]
+[node name="button25" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_dl75r")
 position = Vector2(1344, 443)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton25" parent="button25" instance=ExtResource("4_aojx1")]
+[node name="tbutton25" parent="Button/button25" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle20")
+rectangle_2 = NodePath("../../../rectangle7")
 metadata/_edit_use_anchors_ = true
 
-[node name="button24" type="Sprite2D" parent="."]
+[node name="button24" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ptobs")
 position = Vector2(1152, 443)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton24" parent="button24" instance=ExtResource("4_aojx1")]
+[node name="tbutton24" parent="Button/button24" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle19")
+rectangle_2 = NodePath("../../../rectangle20")
 metadata/_edit_use_anchors_ = true
 
-[node name="button23" type="Sprite2D" parent="."]
+[node name="button23" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_b77tl")
 position = Vector2(960, 443)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton23" parent="button23" instance=ExtResource("4_aojx1")]
+[node name="tbutton23" parent="Button/button23" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle18")
+rectangle_2 = NodePath("../../../rectangle19")
 metadata/_edit_use_anchors_ = true
 
-[node name="button22" type="Sprite2D" parent="."]
+[node name="button22" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_cdhjg")
 position = Vector2(768, 443)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton22" parent="button22" instance=ExtResource("4_aojx1")]
+[node name="tbutton22" parent="Button/button22" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle17")
+rectangle_2 = NodePath("../../../rectangle18")
 metadata/_edit_use_anchors_ = true
 
-[node name="button21" type="Sprite2D" parent="."]
+[node name="button21" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8p7ce")
 position = Vector2(576, 443)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton21" parent="button21" instance=ExtResource("4_aojx1")]
+[node name="tbutton21" parent="Button/button21" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.076
 offset_top = -34.0
 offset_right = 177.924
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle16")
+rectangle_2 = NodePath("../../../rectangle17")
 metadata/_edit_use_anchors_ = true
 
-[node name="button47" type="Sprite2D" parent="."]
+[node name="button47" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_b3piv")
 position = Vector2(576, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton47" parent="button47" instance=ExtResource("4_aojx1")]
+[node name="tbutton47" parent="Button/button47" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
 offset_left = -178.075
 offset_top = -34.0
 offset_right = 177.925
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle14")
+rectangle_2 = NodePath("../../../rectangle13")
 metadata/_edit_use_anchors_ = true
 
-[node name="button20" type="Sprite2D" parent="."]
+[node name="button20" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_h5sbx")
 position = Vector2(384, 444)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton20" parent="button20" instance=ExtResource("4_aojx1")]
+[node name="tbutton20" parent="Button/button20" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.09
 offset_top = -33.2632
 offset_right = 177.91
 offset_bottom = 33.7368
+rectangle_1 = NodePath("../../../rectangle16")
 metadata/_edit_use_anchors_ = true
 
-[node name="button33" type="Sprite2D" parent="."]
+[node name="button33" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_dai8a")
 position = Vector2(384, 636)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton33" parent="button33" instance=ExtResource("4_aojx1")]
+[node name="tbutton33" parent="Button/button33" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.089
 offset_top = -33.2632
 offset_right = 177.911
 offset_bottom = 33.7368
+rectangle_1 = NodePath("../../../rectangle15")
 metadata/_edit_use_anchors_ = true
 
-[node name="button46" type="Sprite2D" parent="."]
+[node name="button46" type="Sprite2D" parent="Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xa8uq")
 position = Vector2(384, 828)
 scale = Vector2(0.0898424, 2.375)
 texture = ExtResource("3_m15sw")
 metadata/_edit_lock_ = true
 
-[node name="tbutton46" parent="button46" instance=ExtResource("4_aojx1")]
+[node name="tbutton46" parent="Button/button46" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
 offset_left = -178.0
 offset_top = -34.0
 offset_right = 178.0
 offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle14")
 metadata/_edit_use_anchors_ = true
-
-[node name="rectangle1" parent="." instance=ExtResource("5_ripcj")]
-
-[node name="rectangle2" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(672, 252)
-
-[node name="rectangle3" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(864, 252)
-
-[node name="rectangle4" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1056, 252)
-
-[node name="rectangle5" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1248, 252)
-
-[node name="rectangle6" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1440, 252)
-
-[node name="rectangle7" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1440, 444)
-
-[node name="rectangle8" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1440, 636)
-
-[node name="rectangle9" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1440, 828)
-
-[node name="rectangle10" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1248, 828)
-
-[node name="rectangle11" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1056, 828)
-
-[node name="rectangle12" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(864, 828)
-
-[node name="rectangle13" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(672, 828)
-
-[node name="rectangle14" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(480, 828)
-
-[node name="rectangle15" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(480, 636)
-
-[node name="rectangle16" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(480, 444)
-
-[node name="rectangle17" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(672, 444)
-
-[node name="rectangle18" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(864, 444)
-
-[node name="rectangle19" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1056, 444)
-
-[node name="rectangle20" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1248, 444)
-
-[node name="rectangle21" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1248, 636)
-
-[node name="rectangle22" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(1056, 636)
-
-[node name="rectangle23" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(864, 636)
-
-[node name="rectangle24" parent="." instance=ExtResource("5_ripcj")]
-position = Vector2(672, 636)

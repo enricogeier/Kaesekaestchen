@@ -1,5 +1,11 @@
 res://world.tscn
 res://texture_button.tscn
 res://rectangle.tscn
-res://rectangle.gd
 res://texture_button.gd
+res://rectangle.gd
+res://Stats.tscn
+res://Stats.gd
+res://world.gd
+res://Player.tscn
+res://Player.gd
+res://PlayerColorShader.gdshader

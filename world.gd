@@ -1,17 +1,14 @@
 extends Node2D
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+# only to test initialize(), delete it after testing
+func _ready():
+	var p1 = Stats.Player.new(0, Color.CORNFLOWER_BLUE)
+	var p2 = Stats.Player.new(1, Color.ORANGE)
+	
+	Stats.initalize(2, [p1, p2])
+
+
 func _process(_delta):
 	pass
 
-
-func _on_button_pressed():
-	print("Button pressed")
-
-
-func _on_button_mouse_entered():
-	pass # Replace with function body.
