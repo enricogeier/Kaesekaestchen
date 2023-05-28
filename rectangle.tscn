@@ -1,17 +1,17 @@
 [gd_scene load_steps=5 format=3 uid="uid://fmonu176ferd"]
 
-[ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="1_8y52o"]
 [ext_resource type="Script" path="res://rectangle.gd" id="1_fj8rn"]
+[ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="1_fwebo"]
 [ext_resource type="Texture2D" uid="uid://drn5bmltgc5k4" path="res://textures/colors/blue.png" id="1_pew5i"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_4eb6f"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uayqx"]
 resource_local_to_scene = true
-shader = ExtResource("1_8y52o")
+shader = ExtResource("1_fwebo")
 shader_parameter/player = null
 
-[node name="rectangle1" type="Sprite2D" groups=["Rectangle"]]
+[node name="rectangle" type="Sprite2D" groups=["Rectangle"]]
 z_index = -1
-material = SubResource("ShaderMaterial_4eb6f")
+material = SubResource("ShaderMaterial_uayqx")
 position = Vector2(480, 252)
 scale = Vector2(2.75, 2.75)
 texture = ExtResource("1_pew5i")

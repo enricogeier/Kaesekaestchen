@@ -1,14 +1,26 @@
 extends Node
 
+enum State
+{
+	PAUSE, END, PLAY
+}
+
+signal player_changed
+
+var current_state = State.PLAY
+
 var amount_of_players = 2
 
 var players = null
 
 var player_on_turn = null
 
-func setColor(node, color):
-	node.material.set("shader_param/player", color)
-	print(str(node))
+func changeState(state):
+	if !(current_state == State.PAUSE && state == State.END):
+		current_state = state
+
+
+
 
 func setNextPlayerOnTurn():
 	
@@ -17,8 +29,11 @@ func setNextPlayerOnTurn():
 		player_on_turn = players[0]
 	else:
 		player_on_turn = players[player_on_turn.number + 1]
+	
+	emit_signal("player_changed")
+	
 
-func initalize(amount_of_players, players):
+func initialize(amount_of_players, players):
 	
 	
 	if amount_of_players < 2:

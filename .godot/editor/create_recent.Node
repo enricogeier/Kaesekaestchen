@@ -1,7 +1,9 @@
+TextureRect
 Node2D
+Button
+VBoxContainer
 Node
 Sprite2D
 AnimatedSprite2D
 TextureButton
 Control
-Button

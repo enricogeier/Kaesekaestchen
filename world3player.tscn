@@ -1,0 +1,2144 @@
+[gd_scene load_steps=115 format=3 uid="uid://owfjug8ultld"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_6ngeh"]
+[ext_resource type="PackedScene" uid="uid://bs357e2r7glt3" path="res://dot.tscn" id="2_psib5"]
+[ext_resource type="Texture2D" uid="uid://cf0dhhib66ve0" path="res://textures/colors/grey-export.png" id="3_m15sw"]
+[ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="3_w4k55"]
+[ext_resource type="PackedScene" uid="uid://3jtdse2ou3np" path="res://texture_button.tscn" id="4_aojx1"]
+[ext_resource type="PackedScene" uid="uid://fmonu176ferd" path="res://rectangle.tscn" id="5_ripcj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jn4tp"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7cl8a"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iaysw"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gt8io"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ounmd"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u413p"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kah1w"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1tblt"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vkvex"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8u5sf"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_la84i"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ixg0b"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1mcj8"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g2wir"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r0sdq"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h7b25"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ay34f"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7kug7"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vfk1v"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7rbsg"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lx2sj"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x7b7q"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1q2pj"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_36gmj"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ltlfh"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8mle0"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ixoor"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bgcaj"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ds285"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_efv2v"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rgb5y"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_21be4"]
+resource_local_to_scene = true
+shader = ExtResource("3_w4k55")
+shader_parameter/player = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jj1s1"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4n5bl"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_knwcx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wg8xt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e221l"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_53qdq"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bd418"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ilyd0"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_a80tu"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_we8i4"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8nano"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xc6jt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2ey80"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8t7e7"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5325l"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cj88f"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qo16r"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_t5vv8"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vaqiv"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j46qn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uuxw3"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ky6gn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_encga"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kfxtc"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6tls"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0cgms"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_64rdn"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3lbgh"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xjt7u"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tsu8i"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_un5wt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xqffb"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2e1tr"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yb3ya"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2c6lm"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bygte"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ikgbc"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3m764"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hxrmt"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8aiqj"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bs7ff"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_w134r"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1wgv6"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wtrh4"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8a58s"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_86sco"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hfqaj"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x7idv"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_swp7l"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iwhqi"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_26hf4"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wgffg"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uh8wj"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7kqca"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fefc3"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sqyxm"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kwaol"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rw6wx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_du0ll"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vqw5o"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6xs8n"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3rbjp"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gmlw1"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ndpjy"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_airwr"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vmw42"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j62cp"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dl75r"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ptobs"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b77tl"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cdhjg"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8p7ce"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b3piv"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h5sbx"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dai8a"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xa8uq"]
+shader = ExtResource("3_w4k55")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_6ngeh")
+
+[node name="Translation" type="Node2D" parent="."]
+position = Vector2(-192, 0)
+
+[node name="Sprite2D" parent="Translation" instance=ExtResource("2_psib5")]
+
+[node name="Sprite2D2" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(576, 156)
+
+[node name="Sprite2D3" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(768, 156)
+
+[node name="Sprite2D4" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(960, 156)
+
+[node name="Sprite2D5" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1152, 156)
+
+[node name="Sprite2D6" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1344, 156)
+
+[node name="Sprite2D7" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1536, 156)
+
+[node name="Sprite2D8" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1728, 156)
+
+[node name="Sprite2D9" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1920, 156)
+
+[node name="Sprite2D10" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1920, 348)
+
+[node name="Sprite2D11" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1920, 540)
+
+[node name="Sprite2D12" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1920, 732)
+
+[node name="Sprite2D13" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1920, 924)
+
+[node name="Sprite2D14" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1728, 924)
+
+[node name="Sprite2D15" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1536, 924)
+
+[node name="Sprite2D16" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1344, 924)
+
+[node name="Sprite2D17" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1152, 924)
+
+[node name="Sprite2D18" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(960, 924)
+
+[node name="Sprite2D19" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(768, 924)
+
+[node name="Sprite2D20" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(576, 924)
+
+[node name="Sprite2D21" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(384, 924)
+
+[node name="Sprite2D22" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(384, 732)
+
+[node name="Sprite2D23" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(384, 540)
+
+[node name="Sprite2D24" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(384, 348)
+
+[node name="Sprite2D25" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(576, 348)
+
+[node name="Sprite2D26" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(768, 348)
+
+[node name="Sprite2D27" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(960, 348)
+
+[node name="Sprite2D28" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1152, 348)
+
+[node name="Sprite2D29" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1344, 348)
+
+[node name="Sprite2D30" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1536, 348)
+
+[node name="Sprite2D31" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1728, 348)
+
+[node name="Sprite2D32" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1728, 540)
+
+[node name="Sprite2D33" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1728, 732)
+
+[node name="Sprite2D34" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1536, 732)
+
+[node name="Sprite2D35" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1344, 732)
+
+[node name="Sprite2D36" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1152, 732)
+
+[node name="Sprite2D37" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(960, 732)
+
+[node name="Sprite2D38" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(768, 732)
+
+[node name="Sprite2D39" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(576, 732)
+
+[node name="Sprite2D40" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(576, 540)
+
+[node name="Sprite2D41" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(768, 540)
+
+[node name="Sprite2D42" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(960, 540)
+
+[node name="Sprite2D43" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1152, 540)
+
+[node name="Sprite2D44" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1344, 540)
+
+[node name="Sprite2D45" parent="Translation" instance=ExtResource("2_psib5")]
+position = Vector2(1536, 540)
+
+[node name="rectangle01" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_jn4tp")
+left = NodePath("../Button/button07/tbutton07")
+top = NodePath("../Button/button01/tbutton01")
+right = NodePath("../Button/button08/tbutton08")
+bottom = NodePath("../Button/button14/tbutton14")
+
+[node name="rectangle02" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_7cl8a")
+position = Vector2(672, 252)
+left = NodePath("../Button/button08/tbutton08")
+top = NodePath("../Button/button02/tbutton02")
+right = NodePath("../Button/button09/tbutton09")
+bottom = NodePath("../Button/button15/tbutton15")
+
+[node name="rectangle03" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_iaysw")
+position = Vector2(864, 252)
+left = NodePath("../Button/button09/tbutton09")
+top = NodePath("../Button/button03/tbutton03")
+right = NodePath("../Button/button10/tbutton10")
+bottom = NodePath("../Button/button16/tbutton16")
+
+[node name="rectangle04" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_gt8io")
+position = Vector2(1056, 252)
+left = NodePath("../Button/button10/tbutton10")
+top = NodePath("../Button/button04/tbutton04")
+right = NodePath("../Button/button11/tbutton11")
+bottom = NodePath("../Button/button17/tbutton17")
+
+[node name="rectangle05" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ounmd")
+position = Vector2(1248, 252)
+left = NodePath("../Button/button11/tbutton11")
+top = NodePath("../Button/button05/tbutton05")
+right = NodePath("../Button/button12/tbutton12")
+bottom = NodePath("../Button/button18/tbutton18")
+
+[node name="rectangle06" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_u413p")
+position = Vector2(1440, 252)
+left = NodePath("../Button/button12/tbutton12")
+top = NodePath("../Button/button06/tbutton06")
+right = NodePath("../Button/button13/tbutton13")
+bottom = NodePath("../Button/button19/tbutton19")
+
+[node name="rectangle12" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_kah1w")
+position = Vector2(1440, 444)
+left = NodePath("../Button/button25/tbutton25")
+top = NodePath("../Button/button19/tbutton19")
+right = NodePath("../Button/button26/tbutton26")
+bottom = NodePath("../Button/button32/tbutton32")
+
+[node name="rectangle18" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_1tblt")
+position = Vector2(1440, 636)
+left = NodePath("../Button/button38/tbutton38")
+top = NodePath("../Button/button32/tbutton32")
+right = NodePath("../Button/button39/tbutton39")
+bottom = NodePath("../Button/button45/tbutton45")
+
+[node name="rectangle24" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_vkvex")
+position = Vector2(1440, 828)
+left = NodePath("../Button/button51/tbutton51")
+top = NodePath("../Button/button45/tbutton45")
+right = NodePath("../Button/button52/tbutton52")
+bottom = NodePath("../Button/button58/tbutton58")
+
+[node name="rectangle25" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_8u5sf")
+position = Vector2(1632, 252)
+left = NodePath("../Button/button13/tbutton13")
+top = NodePath("../Button/button59/tbutton06")
+right = NodePath("../Button/button72/tbutton13")
+bottom = NodePath("../Button/button60/tbutton19")
+
+[node name="rectangle26" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_la84i")
+position = Vector2(1632, 444)
+left = NodePath("../Button/button26/tbutton26")
+top = NodePath("../Button/button60/tbutton19")
+right = NodePath("../Button/button71/tbutton26")
+bottom = NodePath("../Button/button61/tbutton32")
+
+[node name="rectangle27" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ixg0b")
+position = Vector2(1632, 636)
+left = NodePath("../Button/button39/tbutton39")
+top = NodePath("../Button/button61/tbutton32")
+right = NodePath("../Button/button70/tbutton39")
+bottom = NodePath("../Button/button62/tbutton45")
+
+[node name="rectangle28" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_1mcj8")
+position = Vector2(1632, 828)
+left = NodePath("../Button/button52/tbutton52")
+top = NodePath("../Button/button62/tbutton45")
+right = NodePath("../Button/button69/tbutton52")
+bottom = NodePath("../Button/button63/tbutton58")
+
+[node name="rectangle29" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_g2wir")
+position = Vector2(1824, 252)
+left = NodePath("../Button/button72/tbutton13")
+top = NodePath("../Button/button64/tbutton06")
+right = NodePath("../Button/button76/tbutton13")
+bottom = NodePath("../Button/button65/tbutton19")
+
+[node name="rectangle30" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_r0sdq")
+position = Vector2(1824, 444)
+left = NodePath("../Button/button71/tbutton26")
+top = NodePath("../Button/button65/tbutton19")
+right = NodePath("../Button/button75/tbutton26")
+bottom = NodePath("../Button/button66/tbutton32")
+
+[node name="rectangle31" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_h7b25")
+position = Vector2(1824, 636)
+left = NodePath("../Button/button70/tbutton39")
+top = NodePath("../Button/button66/tbutton32")
+right = NodePath("../Button/button74/tbutton39")
+bottom = NodePath("../Button/button67/tbutton45")
+
+[node name="rectangle32" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ay34f")
+position = Vector2(1824, 828)
+left = NodePath("../Button/button69/tbutton52")
+top = NodePath("../Button/button67/tbutton45")
+right = NodePath("../Button/button73/tbutton52")
+bottom = NodePath("../Button/button68/tbutton58")
+
+[node name="rectangle23" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_7kug7")
+position = Vector2(1248, 828)
+left = NodePath("../Button/button50/tbutton50")
+top = NodePath("../Button/button44/tbutton44")
+right = NodePath("../Button/button51/tbutton51")
+bottom = NodePath("../Button/button57/tbutton57")
+
+[node name="rectangle22" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_vfk1v")
+position = Vector2(1056, 828)
+left = NodePath("../Button/button49/tbutton49")
+top = NodePath("../Button/button43/tbutton43")
+right = NodePath("../Button/button50/tbutton50")
+bottom = NodePath("../Button/button56/tbutton56")
+
+[node name="rectangle21" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_7rbsg")
+position = Vector2(864, 828)
+left = NodePath("../Button/button48/tbutton48")
+top = NodePath("../Button/button42/tbutton42")
+right = NodePath("../Button/button49/tbutton49")
+bottom = NodePath("../Button/button55/tbutton55")
+
+[node name="rectangle20" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_lx2sj")
+position = Vector2(672, 828)
+left = NodePath("../Button/button47/tbutton47")
+top = NodePath("../Button/button41/tbutton41")
+right = NodePath("../Button/button48/tbutton48")
+bottom = NodePath("../Button/button54/tbutton54")
+
+[node name="rectangle19" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_x7b7q")
+position = Vector2(480, 828)
+left = NodePath("../Button/button46/tbutton46")
+top = NodePath("../Button/button40/tbutton40")
+right = NodePath("../Button/button47/tbutton47")
+bottom = NodePath("../Button/button53/tbutton53")
+
+[node name="rectangle13" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_1q2pj")
+position = Vector2(480, 636)
+left = NodePath("../Button/button33/tbutton33")
+top = NodePath("../Button/button27/tbutton27")
+right = NodePath("../Button/button34/tbutton34")
+bottom = NodePath("../Button/button40/tbutton40")
+
+[node name="rectangle07" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_36gmj")
+position = Vector2(480, 444)
+left = NodePath("../Button/button20/tbutton20")
+top = NodePath("../Button/button14/tbutton14")
+right = NodePath("../Button/button21/tbutton21")
+bottom = NodePath("../Button/button27/tbutton27")
+
+[node name="rectangle08" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ltlfh")
+position = Vector2(672, 444)
+left = NodePath("../Button/button21/tbutton21")
+top = NodePath("../Button/button15/tbutton15")
+right = NodePath("../Button/button22/tbutton22")
+bottom = NodePath("../Button/button28/tbutton28")
+
+[node name="rectangle09" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_8mle0")
+position = Vector2(864, 444)
+left = NodePath("../Button/button22/tbutton22")
+top = NodePath("../Button/button16/tbutton16")
+right = NodePath("../Button/button23/tbutton23")
+bottom = NodePath("../Button/button29/tbutton29")
+
+[node name="rectangle10" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ixoor")
+position = Vector2(1056, 444)
+left = NodePath("../Button/button23/tbutton23")
+top = NodePath("../Button/button17/tbutton17")
+right = NodePath("../Button/button24/tbutton24")
+bottom = NodePath("../Button/button30/tbutton30")
+
+[node name="rectangle11" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_bgcaj")
+position = Vector2(1248, 444)
+left = NodePath("../Button/button24/tbutton24")
+top = NodePath("../Button/button18/tbutton18")
+right = NodePath("../Button/button25/tbutton25")
+bottom = NodePath("../Button/button31/tbutton31")
+
+[node name="rectangle17" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_ds285")
+position = Vector2(1248, 636)
+left = NodePath("../Button/button37/tbutton37")
+top = NodePath("../Button/button31/tbutton31")
+right = NodePath("../Button/button38/tbutton38")
+bottom = NodePath("../Button/button44/tbutton44")
+
+[node name="rectangle16" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_efv2v")
+position = Vector2(1056, 636)
+left = NodePath("../Button/button36/tbutton36")
+top = NodePath("../Button/button30/tbutton30")
+right = NodePath("../Button/button37/tbutton37")
+bottom = NodePath("../Button/button43/tbutton43")
+
+[node name="rectangle15" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_rgb5y")
+position = Vector2(864, 636)
+left = NodePath("../Button/button35/tbutton35")
+top = NodePath("../Button/button29/tbutton29")
+right = NodePath("../Button/button36/tbutton36")
+bottom = NodePath("../Button/button42/tbutton42")
+
+[node name="rectangle14" parent="Translation" node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
+material = SubResource("ShaderMaterial_21be4")
+position = Vector2(672, 636)
+left = NodePath("../Button/button34/tbutton34")
+top = NodePath("../Button/button28/tbutton28")
+right = NodePath("../Button/button35/tbutton35")
+bottom = NodePath("../Button/button41/tbutton41")
+
+[node name="Button" type="Node2D" parent="Translation"]
+metadata/_edit_lock_ = true
+
+[node name="button07" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_jj1s1")
+position = Vector2(384, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton07" parent="Translation/Button/button07" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.0
+offset_right = 167.0
+rectangle_1 = NodePath("../../../rectangle01")
+metadata/_edit_use_anchors_ = true
+
+[node name="button01" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_4n5bl")
+position = Vector2(480, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton01" parent="Translation/Button/button01" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -174.037
+offset_top = -33.7002
+offset_right = -62.0368
+offset_bottom = 31.2998
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle01")
+metadata/_edit_use_anchors_ = true
+
+[node name="button04" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_knwcx")
+position = Vector2(1056, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton04" parent="Translation/Button/button04" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle04")
+metadata/_edit_use_anchors_ = true
+
+[node name="button05" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_wg8xt")
+position = Vector2(1248, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton05" parent="Translation/Button/button05" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle05")
+metadata/_edit_use_anchors_ = true
+
+[node name="button06" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_e221l")
+position = Vector2(1440, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton06" parent="Translation/Button/button06" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle06")
+metadata/_edit_use_anchors_ = true
+
+[node name="button19" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_53qdq")
+position = Vector2(1440, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton19" parent="Translation/Button/button19" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle06")
+rectangle_2 = NodePath("../../../rectangle12")
+metadata/_edit_use_anchors_ = true
+
+[node name="button32" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bd418")
+position = Vector2(1440, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton32" parent="Translation/Button/button32" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle12")
+rectangle_2 = NodePath("../../../rectangle18")
+metadata/_edit_use_anchors_ = true
+
+[node name="button45" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ilyd0")
+position = Vector2(1440, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton45" parent="Translation/Button/button45" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle18")
+rectangle_2 = NodePath("../../../rectangle24")
+metadata/_edit_use_anchors_ = true
+
+[node name="button58" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_a80tu")
+position = Vector2(1440, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton58" parent="Translation/Button/button58" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle24")
+metadata/_edit_use_anchors_ = true
+
+[node name="button59" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_we8i4")
+position = Vector2(1632, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton06" parent="Translation/Button/button59" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle25")
+rectangle_2 = NodePath("")
+metadata/_edit_use_anchors_ = true
+
+[node name="button60" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8nano")
+position = Vector2(1632, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton19" parent="Translation/Button/button60" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle25")
+rectangle_2 = NodePath("../../../rectangle26")
+metadata/_edit_use_anchors_ = true
+
+[node name="button61" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xc6jt")
+position = Vector2(1632, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton32" parent="Translation/Button/button61" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle26")
+rectangle_2 = NodePath("../../../rectangle27")
+metadata/_edit_use_anchors_ = true
+
+[node name="button62" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_2ey80")
+position = Vector2(1632, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton45" parent="Translation/Button/button62" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle27")
+rectangle_2 = NodePath("../../../rectangle28")
+metadata/_edit_use_anchors_ = true
+
+[node name="button63" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8t7e7")
+position = Vector2(1632, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton58" parent="Translation/Button/button63" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle28")
+rectangle_2 = NodePath("")
+metadata/_edit_use_anchors_ = true
+
+[node name="button64" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_5325l")
+position = Vector2(1824, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton06" parent="Translation/Button/button64" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle29")
+rectangle_2 = NodePath("")
+metadata/_edit_use_anchors_ = true
+
+[node name="button65" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_cj88f")
+position = Vector2(1824, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton19" parent="Translation/Button/button65" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle29")
+rectangle_2 = NodePath("../../../rectangle30")
+metadata/_edit_use_anchors_ = true
+
+[node name="button66" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_qo16r")
+position = Vector2(1824, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton32" parent="Translation/Button/button66" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle30")
+rectangle_2 = NodePath("../../../rectangle31")
+metadata/_edit_use_anchors_ = true
+
+[node name="button67" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_t5vv8")
+position = Vector2(1824, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton45" parent="Translation/Button/button67" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle31")
+rectangle_2 = NodePath("../../../rectangle32")
+metadata/_edit_use_anchors_ = true
+
+[node name="button68" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_vaqiv")
+position = Vector2(1824, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton58" parent="Translation/Button/button68" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle32")
+rectangle_2 = NodePath("")
+metadata/_edit_use_anchors_ = true
+
+[node name="button57" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_j46qn")
+position = Vector2(1248, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton57" parent="Translation/Button/button57" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle23")
+metadata/_edit_use_anchors_ = true
+
+[node name="button56" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_uuxw3")
+position = Vector2(1056, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton56" parent="Translation/Button/button56" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle22")
+metadata/_edit_use_anchors_ = true
+
+[node name="button55" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ky6gn")
+position = Vector2(864, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton55" parent="Translation/Button/button55" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle21")
+metadata/_edit_use_anchors_ = true
+
+[node name="button54" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_encga")
+position = Vector2(672, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton54" parent="Translation/Button/button54" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle20")
+metadata/_edit_use_anchors_ = true
+
+[node name="button53" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_kfxtc")
+position = Vector2(480, 924)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton53" parent="Translation/Button/button53" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle19")
+metadata/_edit_use_anchors_ = true
+
+[node name="button40" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_r6tls")
+position = Vector2(480, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton40" parent="Translation/Button/button40" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle13")
+rectangle_2 = NodePath("../../../rectangle19")
+metadata/_edit_use_anchors_ = true
+
+[node name="button27" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_0cgms")
+position = Vector2(480, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton27" parent="Translation/Button/button27" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle07")
+rectangle_2 = NodePath("../../../rectangle13")
+metadata/_edit_use_anchors_ = true
+
+[node name="button14" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_64rdn")
+position = Vector2(480, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton14" parent="Translation/Button/button14" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle01")
+rectangle_2 = NodePath("../../../rectangle07")
+metadata/_edit_use_anchors_ = true
+
+[node name="button15" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3lbgh")
+position = Vector2(672, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton15" parent="Translation/Button/button15" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle02")
+rectangle_2 = NodePath("../../../rectangle08")
+metadata/_edit_use_anchors_ = true
+
+[node name="button16" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xjt7u")
+position = Vector2(864, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton16" parent="Translation/Button/button16" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle03")
+rectangle_2 = NodePath("../../../rectangle09")
+metadata/_edit_use_anchors_ = true
+
+[node name="button17" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_tsu8i")
+position = Vector2(1056, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton17" parent="Translation/Button/button17" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle04")
+rectangle_2 = NodePath("../../../rectangle10")
+metadata/_edit_use_anchors_ = true
+
+[node name="button18" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_un5wt")
+position = Vector2(1248, 348)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton18" parent="Translation/Button/button18" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle05")
+rectangle_2 = NodePath("../../../rectangle11")
+metadata/_edit_use_anchors_ = true
+
+[node name="button31" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xqffb")
+position = Vector2(1248, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton31" parent="Translation/Button/button31" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle11")
+rectangle_2 = NodePath("../../../rectangle17")
+metadata/_edit_use_anchors_ = true
+
+[node name="button44" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_2e1tr")
+position = Vector2(1248, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton44" parent="Translation/Button/button44" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle17")
+rectangle_2 = NodePath("../../../rectangle23")
+metadata/_edit_use_anchors_ = true
+
+[node name="button43" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_yb3ya")
+position = Vector2(1056, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton43" parent="Translation/Button/button43" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle16")
+rectangle_2 = NodePath("../../../rectangle22")
+metadata/_edit_use_anchors_ = true
+
+[node name="button42" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_2c6lm")
+position = Vector2(864, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton42" parent="Translation/Button/button42" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle15")
+rectangle_2 = NodePath("../../../rectangle21")
+metadata/_edit_use_anchors_ = true
+
+[node name="button41" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bygte")
+position = Vector2(672, 732)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton41" parent="Translation/Button/button41" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle14")
+rectangle_2 = NodePath("../../../rectangle20")
+metadata/_edit_use_anchors_ = true
+
+[node name="button28" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ikgbc")
+position = Vector2(672, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton28" parent="Translation/Button/button28" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle08")
+rectangle_2 = NodePath("../../../rectangle14")
+metadata/_edit_use_anchors_ = true
+
+[node name="button29" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3m764")
+position = Vector2(864, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton29" parent="Translation/Button/button29" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle09")
+rectangle_2 = NodePath("../../../rectangle15")
+metadata/_edit_use_anchors_ = true
+
+[node name="button30" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hxrmt")
+position = Vector2(1056, 540)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton30" parent="Translation/Button/button30" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -179.0
+offset_top = -33.0
+offset_right = -67.0
+offset_bottom = 31.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle10")
+rectangle_2 = NodePath("../../../rectangle16")
+metadata/_edit_use_anchors_ = true
+
+[node name="button03" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8aiqj")
+position = Vector2(863, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton03" parent="Translation/Button/button03" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -180.0
+offset_top = -33.0
+offset_right = -68.0
+offset_bottom = 32.0
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle03")
+metadata/_edit_use_anchors_ = true
+
+[node name="button02" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_bs7ff")
+position = Vector2(671, 156)
+rotation = -1.5708
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton02" parent="Translation/Button/button02" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -176.937
+offset_top = -33.1555
+offset_right = -64.9365
+offset_bottom = 31.8445
+scale = Vector2(3.20016, 1.03447)
+rectangle_1 = NodePath("../../../rectangle02")
+metadata/_edit_use_anchors_ = true
+
+[node name="button48" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_w134r")
+position = Vector2(768, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton48" parent="Translation/Button/button48" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle20")
+rectangle_2 = NodePath("../../../rectangle21")
+metadata/_edit_use_anchors_ = true
+
+[node name="button49" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_1wgv6")
+position = Vector2(960, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton49" parent="Translation/Button/button49" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle21")
+rectangle_2 = NodePath("../../../rectangle22")
+metadata/_edit_use_anchors_ = true
+
+[node name="button50" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_wtrh4")
+position = Vector2(1152, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton50" parent="Translation/Button/button50" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle22")
+rectangle_2 = NodePath("../../../rectangle23")
+metadata/_edit_use_anchors_ = true
+
+[node name="button51" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8a58s")
+position = Vector2(1344, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton51" parent="Translation/Button/button51" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle23")
+rectangle_2 = NodePath("../../../rectangle24")
+metadata/_edit_use_anchors_ = true
+
+[node name="button52" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_86sco")
+position = Vector2(1536, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton52" parent="Translation/Button/button52" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle24")
+rectangle_2 = NodePath("../../../rectangle28")
+metadata/_edit_use_anchors_ = true
+
+[node name="button39" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_hfqaj")
+position = Vector2(1536, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton39" parent="Translation/Button/button39" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle18")
+rectangle_2 = NodePath("../../../rectangle27")
+metadata/_edit_use_anchors_ = true
+
+[node name="button26" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_x7idv")
+position = Vector2(1536, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton26" parent="Translation/Button/button26" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle12")
+rectangle_2 = NodePath("../../../rectangle26")
+metadata/_edit_use_anchors_ = true
+
+[node name="button13" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_swp7l")
+position = Vector2(1536, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton13" parent="Translation/Button/button13" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle06")
+rectangle_2 = NodePath("../../../rectangle25")
+metadata/_edit_use_anchors_ = true
+
+[node name="button69" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_iwhqi")
+position = Vector2(1728, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton52" parent="Translation/Button/button69" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle28")
+rectangle_2 = NodePath("../../../rectangle32")
+metadata/_edit_use_anchors_ = true
+
+[node name="button70" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_26hf4")
+position = Vector2(1728, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton39" parent="Translation/Button/button70" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle27")
+rectangle_2 = NodePath("../../../rectangle31")
+metadata/_edit_use_anchors_ = true
+
+[node name="button71" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_wgffg")
+position = Vector2(1728, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton26" parent="Translation/Button/button71" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle26")
+rectangle_2 = NodePath("../../../rectangle30")
+metadata/_edit_use_anchors_ = true
+
+[node name="button72" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_uh8wj")
+position = Vector2(1728, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton13" parent="Translation/Button/button72" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle25")
+rectangle_2 = NodePath("../../../rectangle29")
+metadata/_edit_use_anchors_ = true
+
+[node name="button73" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_7kqca")
+position = Vector2(1920, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton52" parent="Translation/Button/button73" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle32")
+metadata/_edit_use_anchors_ = true
+
+[node name="button74" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_fefc3")
+position = Vector2(1920, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton39" parent="Translation/Button/button74" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle31")
+metadata/_edit_use_anchors_ = true
+
+[node name="button75" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_sqyxm")
+position = Vector2(1920, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton26" parent="Translation/Button/button75" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle30")
+metadata/_edit_use_anchors_ = true
+
+[node name="button76" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_kwaol")
+position = Vector2(1920, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton13" parent="Translation/Button/button76" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle29")
+metadata/_edit_use_anchors_ = true
+
+[node name="button12" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_rw6wx")
+position = Vector2(1344, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton12" parent="Translation/Button/button12" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle05")
+rectangle_2 = NodePath("../../../rectangle06")
+metadata/_edit_use_anchors_ = true
+
+[node name="button11" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_du0ll")
+position = Vector2(1152, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton11" parent="Translation/Button/button11" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle04")
+rectangle_2 = NodePath("../../../rectangle05")
+metadata/_edit_use_anchors_ = true
+
+[node name="button10" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_vqw5o")
+position = Vector2(960, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton10" parent="Translation/Button/button10" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle03")
+rectangle_2 = NodePath("../../../rectangle04")
+metadata/_edit_use_anchors_ = true
+
+[node name="button09" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_6xs8n")
+position = Vector2(768, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton09" parent="Translation/Button/button09" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle02")
+rectangle_2 = NodePath("../../../rectangle03")
+metadata/_edit_use_anchors_ = true
+
+[node name="button08" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_3rbjp")
+position = Vector2(576, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton08" parent="Translation/Button/button08" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle01")
+rectangle_2 = NodePath("../../../rectangle02")
+metadata/_edit_use_anchors_ = true
+
+[node name="button34" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_gmlw1")
+position = Vector2(576, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton34" parent="Translation/Button/button34" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle13")
+rectangle_2 = NodePath("../../../rectangle14")
+metadata/_edit_use_anchors_ = true
+
+[node name="button35" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ndpjy")
+position = Vector2(768, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton35" parent="Translation/Button/button35" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle14")
+rectangle_2 = NodePath("../../../rectangle15")
+metadata/_edit_use_anchors_ = true
+
+[node name="button36" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_airwr")
+position = Vector2(960, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton36" parent="Translation/Button/button36" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle15")
+rectangle_2 = NodePath("../../../rectangle16")
+metadata/_edit_use_anchors_ = true
+
+[node name="button37" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_vmw42")
+position = Vector2(1152, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton37" parent="Translation/Button/button37" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle16")
+rectangle_2 = NodePath("../../../rectangle17")
+metadata/_edit_use_anchors_ = true
+
+[node name="button38" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_j62cp")
+position = Vector2(1344, 635)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton38" parent="Translation/Button/button38" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle17")
+rectangle_2 = NodePath("../../../rectangle18")
+metadata/_edit_use_anchors_ = true
+
+[node name="button25" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_dl75r")
+position = Vector2(1344, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton25" parent="Translation/Button/button25" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle11")
+rectangle_2 = NodePath("../../../rectangle12")
+metadata/_edit_use_anchors_ = true
+
+[node name="button24" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_ptobs")
+position = Vector2(1152, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton24" parent="Translation/Button/button24" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle10")
+rectangle_2 = NodePath("../../../rectangle11")
+metadata/_edit_use_anchors_ = true
+
+[node name="button23" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_b77tl")
+position = Vector2(960, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton23" parent="Translation/Button/button23" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle09")
+rectangle_2 = NodePath("../../../rectangle10")
+metadata/_edit_use_anchors_ = true
+
+[node name="button22" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_cdhjg")
+position = Vector2(768, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton22" parent="Translation/Button/button22" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle08")
+rectangle_2 = NodePath("../../../rectangle09")
+metadata/_edit_use_anchors_ = true
+
+[node name="button21" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_8p7ce")
+position = Vector2(576, 443)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton21" parent="Translation/Button/button21" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.076
+offset_top = -34.0
+offset_right = 177.924
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle07")
+rectangle_2 = NodePath("../../../rectangle08")
+metadata/_edit_use_anchors_ = true
+
+[node name="button47" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_b3piv")
+position = Vector2(576, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton47" parent="Translation/Button/button47" node_paths=PackedStringArray("rectangle_1", "rectangle_2") instance=ExtResource("4_aojx1")]
+offset_left = -178.075
+offset_top = -34.0
+offset_right = 177.925
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle19")
+rectangle_2 = NodePath("../../../rectangle20")
+metadata/_edit_use_anchors_ = true
+
+[node name="button20" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_h5sbx")
+position = Vector2(384, 444)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton20" parent="Translation/Button/button20" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.09
+offset_top = -33.2632
+offset_right = 177.91
+offset_bottom = 33.7368
+rectangle_1 = NodePath("../../../rectangle07")
+metadata/_edit_use_anchors_ = true
+
+[node name="button33" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_dai8a")
+position = Vector2(384, 636)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton33" parent="Translation/Button/button33" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.089
+offset_top = -33.2632
+offset_right = 177.911
+offset_bottom = 33.7368
+rectangle_1 = NodePath("../../../rectangle13")
+metadata/_edit_use_anchors_ = true
+
+[node name="button46" type="Sprite2D" parent="Translation/Button"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_xa8uq")
+position = Vector2(384, 828)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("3_m15sw")
+
+[node name="tbutton46" parent="Translation/Button/button46" node_paths=PackedStringArray("rectangle_1") instance=ExtResource("4_aojx1")]
+offset_left = -178.0
+offset_top = -34.0
+offset_right = 178.0
+offset_bottom = 34.0
+rectangle_1 = NodePath("../../../rectangle19")
+metadata/_edit_use_anchors_ = true

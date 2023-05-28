@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://xosavy51h11y"]
+
+[ext_resource type="Script" path="res://MenuButton.gd" id="1_rk5on"]
+
+[node name="Button" type="Button"]
+script = ExtResource("1_rk5on")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
