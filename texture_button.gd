@@ -9,7 +9,7 @@ func _on_pressed():
 	
 	if !already_selected:
 		already_selected = true
-		View.setColor(get_parent(), Stats.player_on_turn.color)
+		View.setNoiseColor(get_parent(), Stats.player_on_turn.color)
 		var rectangles = Stats.player_on_turn.rectangles
 		if rectangle_1 != null:
 			rectangle_1.check()

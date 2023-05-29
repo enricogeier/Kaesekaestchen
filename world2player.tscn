@@ -1,379 +1,451 @@
-[gd_scene load_steps=92 format=3 uid="uid://owfjug8ultld"]
+[gd_scene load_steps=90 format=3 uid="uid://owfjug8ultld"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_6ngeh"]
+[ext_resource type="PackedScene" uid="uid://t5fn1flgpcn" path="res://background.tscn" id="2_0b0rq"]
 [ext_resource type="PackedScene" uid="uid://bs357e2r7glt3" path="res://dot.tscn" id="2_2vbps"]
-[ext_resource type="Shader" path="res://black.gdshader" id="2_jnfo0"]
 [ext_resource type="Texture2D" uid="uid://cf0dhhib66ve0" path="res://textures/colors/grey-export.png" id="3_m15sw"]
 [ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="3_w4k55"]
 [ext_resource type="PackedScene" uid="uid://3jtdse2ou3np" path="res://texture_button.tscn" id="4_aojx1"]
 [ext_resource type="PackedScene" uid="uid://fmonu176ferd" path="res://rectangle.tscn" id="5_ripcj"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_28pxg"]
-shader = ExtResource("2_jnfo0")
-
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_m44aa"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_2qhb4"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r2fhk"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_i1ams"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_txy42"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_s4sss"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_385y3"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_psr6v"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_opcsl"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_n47ft"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_evmns"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_42ghh"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hpq3h"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_vcxjm"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v03qu"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_fo3bo"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3ler8"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_m7rid"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8wviy"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_mni4o"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y1175"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_itmo7"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1xqpc"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_taly5"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_u47xh"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_phpvy"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_msnh5"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_2dftw"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2xky2"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_eln27"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hm3r6"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ka8rv"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_scwxx"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_d75ss"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_57qt3"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_oeejv"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_57rwl"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_i2cqc"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6mcpj"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ah3m3"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kwjpq"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_vl605"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kgm8y"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_l5lct"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ycv4g"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_pvrmb"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cmo2u"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_u87v8"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wgscw"]
 resource_local_to_scene = true
 shader = ExtResource("3_w4k55")
 shader_parameter/player = null
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jj1s1"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_4n5bl"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_knwcx"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_wg8xt"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_e221l"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_53qdq"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_bd418"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ilyd0"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_a80tu"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_j46qn"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uuxw3"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ky6gn"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_encga"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kfxtc"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_r6tls"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0cgms"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_64rdn"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3lbgh"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xjt7u"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tsu8i"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_un5wt"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xqffb"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2e1tr"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_yb3ya"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2c6lm"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_bygte"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ikgbc"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3m764"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_hxrmt"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8aiqj"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_bs7ff"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_w134r"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1wgv6"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_wtrh4"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8a58s"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_86sco"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_hfqaj"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_x7idv"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_swp7l"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_rw6wx"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_du0ll"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vqw5o"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6xs8n"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3rbjp"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_gmlw1"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ndpjy"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_airwr"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vmw42"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_j62cp"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_dl75r"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ptobs"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_b77tl"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_cdhjg"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8p7ce"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_b3piv"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_h5sbx"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_dai8a"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xa8uq"]
 shader = ExtResource("3_w4k55")
 shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_6ngeh")
 
-[node name="background" type="TextureRect" parent="."]
-z_index = -100
-material = SubResource("ShaderMaterial_28pxg")
-offset_right = 1949.0
-offset_bottom = 1098.0
-texture = SubResource("PlaceholderTexture2D_m44aa")
+[node name="background" parent="." instance=ExtResource("2_0b0rq")]
 
 [node name="Sprite2D" parent="." instance=ExtResource("2_2vbps")]
 
@@ -483,14 +555,14 @@ position = Vector2(960, 540)
 position = Vector2(1152, 540)
 
 [node name="rectangle01" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_2qhb4")
+material = SubResource("ShaderMaterial_r2fhk")
 left = NodePath("../Button/button07/tbutton07")
 top = NodePath("../Button/button01/tbutton01")
 right = NodePath("../Button/button08/tbutton08")
 bottom = NodePath("../Button/button14/tbutton14")
 
 [node name="rectangle02" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_i1ams")
+material = SubResource("ShaderMaterial_txy42")
 position = Vector2(672, 252)
 left = NodePath("../Button/button08/tbutton08")
 top = NodePath("../Button/button02/tbutton02")
@@ -498,7 +570,7 @@ right = NodePath("../Button/button09/tbutton09")
 bottom = NodePath("../Button/button15/tbutton15")
 
 [node name="rectangle03" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_s4sss")
+material = SubResource("ShaderMaterial_385y3")
 position = Vector2(864, 252)
 left = NodePath("../Button/button09/tbutton09")
 top = NodePath("../Button/button03/tbutton03")
@@ -506,7 +578,7 @@ right = NodePath("../Button/button10/tbutton10")
 bottom = NodePath("../Button/button16/tbutton16")
 
 [node name="rectangle04" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_psr6v")
+material = SubResource("ShaderMaterial_opcsl")
 position = Vector2(1056, 252)
 left = NodePath("../Button/button10/tbutton10")
 top = NodePath("../Button/button04/tbutton04")
@@ -514,7 +586,7 @@ right = NodePath("../Button/button11/tbutton11")
 bottom = NodePath("../Button/button17/tbutton17")
 
 [node name="rectangle05" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_n47ft")
+material = SubResource("ShaderMaterial_evmns")
 position = Vector2(1248, 252)
 left = NodePath("../Button/button11/tbutton11")
 top = NodePath("../Button/button05/tbutton05")
@@ -522,7 +594,7 @@ right = NodePath("../Button/button12/tbutton12")
 bottom = NodePath("../Button/button18/tbutton18")
 
 [node name="rectangle06" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_42ghh")
+material = SubResource("ShaderMaterial_hpq3h")
 position = Vector2(1440, 252)
 left = NodePath("../Button/button12/tbutton12")
 top = NodePath("../Button/button06/tbutton06")
@@ -530,7 +602,7 @@ right = NodePath("../Button/button13/tbutton13")
 bottom = NodePath("../Button/button19/tbutton19")
 
 [node name="rectangle12" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_vcxjm")
+material = SubResource("ShaderMaterial_v03qu")
 position = Vector2(1440, 444)
 left = NodePath("../Button/button25/tbutton25")
 top = NodePath("../Button/button19/tbutton19")
@@ -538,7 +610,7 @@ right = NodePath("../Button/button26/tbutton26")
 bottom = NodePath("../Button/button32/tbutton32")
 
 [node name="rectangle18" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_fo3bo")
+material = SubResource("ShaderMaterial_3ler8")
 position = Vector2(1440, 636)
 left = NodePath("../Button/button38/tbutton38")
 top = NodePath("../Button/button32/tbutton32")
@@ -546,7 +618,7 @@ right = NodePath("../Button/button39/tbutton39")
 bottom = NodePath("../Button/button45/tbutton45")
 
 [node name="rectangle24" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_m7rid")
+material = SubResource("ShaderMaterial_8wviy")
 position = Vector2(1440, 828)
 left = NodePath("../Button/button51/tbutton51")
 top = NodePath("../Button/button45/tbutton45")
@@ -554,7 +626,7 @@ right = NodePath("../Button/button52/tbutton52")
 bottom = NodePath("../Button/button58/tbutton58")
 
 [node name="rectangle23" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_mni4o")
+material = SubResource("ShaderMaterial_y1175")
 position = Vector2(1248, 828)
 left = NodePath("../Button/button50/tbutton50")
 top = NodePath("../Button/button44/tbutton44")
@@ -562,7 +634,7 @@ right = NodePath("../Button/button51/tbutton51")
 bottom = NodePath("../Button/button57/tbutton57")
 
 [node name="rectangle22" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_itmo7")
+material = SubResource("ShaderMaterial_1xqpc")
 position = Vector2(1056, 828)
 left = NodePath("../Button/button49/tbutton49")
 top = NodePath("../Button/button43/tbutton43")
@@ -570,7 +642,7 @@ right = NodePath("../Button/button50/tbutton50")
 bottom = NodePath("../Button/button56/tbutton56")
 
 [node name="rectangle21" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_taly5")
+material = SubResource("ShaderMaterial_u47xh")
 position = Vector2(864, 828)
 left = NodePath("../Button/button48/tbutton48")
 top = NodePath("../Button/button42/tbutton42")
@@ -578,7 +650,7 @@ right = NodePath("../Button/button49/tbutton49")
 bottom = NodePath("../Button/button55/tbutton55")
 
 [node name="rectangle20" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_phpvy")
+material = SubResource("ShaderMaterial_msnh5")
 position = Vector2(672, 828)
 left = NodePath("../Button/button47/tbutton47")
 top = NodePath("../Button/button41/tbutton41")
@@ -586,7 +658,7 @@ right = NodePath("../Button/button48/tbutton48")
 bottom = NodePath("../Button/button54/tbutton54")
 
 [node name="rectangle19" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_2dftw")
+material = SubResource("ShaderMaterial_2xky2")
 position = Vector2(480, 828)
 left = NodePath("../Button/button46/tbutton46")
 top = NodePath("../Button/button40/tbutton40")
@@ -594,7 +666,7 @@ right = NodePath("../Button/button47/tbutton47")
 bottom = NodePath("../Button/button53/tbutton53")
 
 [node name="rectangle13" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_eln27")
+material = SubResource("ShaderMaterial_hm3r6")
 position = Vector2(480, 636)
 left = NodePath("../Button/button33/tbutton33")
 top = NodePath("../Button/button27/tbutton27")
@@ -602,7 +674,7 @@ right = NodePath("../Button/button34/tbutton34")
 bottom = NodePath("../Button/button40/tbutton40")
 
 [node name="rectangle07" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_ka8rv")
+material = SubResource("ShaderMaterial_scwxx")
 position = Vector2(480, 444)
 left = NodePath("../Button/button20/tbutton20")
 top = NodePath("../Button/button14/tbutton14")
@@ -610,7 +682,7 @@ right = NodePath("../Button/button21/tbutton21")
 bottom = NodePath("../Button/button27/tbutton27")
 
 [node name="rectangle08" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_d75ss")
+material = SubResource("ShaderMaterial_57qt3")
 position = Vector2(672, 444)
 left = NodePath("../Button/button21/tbutton21")
 top = NodePath("../Button/button15/tbutton15")
@@ -618,7 +690,7 @@ right = NodePath("../Button/button22/tbutton22")
 bottom = NodePath("../Button/button28/tbutton28")
 
 [node name="rectangle09" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_oeejv")
+material = SubResource("ShaderMaterial_57rwl")
 position = Vector2(864, 444)
 left = NodePath("../Button/button22/tbutton22")
 top = NodePath("../Button/button16/tbutton16")
@@ -626,7 +698,7 @@ right = NodePath("../Button/button23/tbutton23")
 bottom = NodePath("../Button/button29/tbutton29")
 
 [node name="rectangle10" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_i2cqc")
+material = SubResource("ShaderMaterial_6mcpj")
 position = Vector2(1056, 444)
 left = NodePath("../Button/button23/tbutton23")
 top = NodePath("../Button/button17/tbutton17")
@@ -634,7 +706,7 @@ right = NodePath("../Button/button24/tbutton24")
 bottom = NodePath("../Button/button30/tbutton30")
 
 [node name="rectangle11" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_ah3m3")
+material = SubResource("ShaderMaterial_kwjpq")
 position = Vector2(1248, 444)
 left = NodePath("../Button/button24/tbutton24")
 top = NodePath("../Button/button18/tbutton18")
@@ -642,7 +714,7 @@ right = NodePath("../Button/button25/tbutton25")
 bottom = NodePath("../Button/button31/tbutton31")
 
 [node name="rectangle17" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_vl605")
+material = SubResource("ShaderMaterial_kgm8y")
 position = Vector2(1248, 636)
 left = NodePath("../Button/button37/tbutton37")
 top = NodePath("../Button/button31/tbutton31")
@@ -650,7 +722,7 @@ right = NodePath("../Button/button38/tbutton38")
 bottom = NodePath("../Button/button44/tbutton44")
 
 [node name="rectangle16" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_l5lct")
+material = SubResource("ShaderMaterial_ycv4g")
 position = Vector2(1056, 636)
 left = NodePath("../Button/button36/tbutton36")
 top = NodePath("../Button/button30/tbutton30")
@@ -658,7 +730,7 @@ right = NodePath("../Button/button37/tbutton37")
 bottom = NodePath("../Button/button43/tbutton43")
 
 [node name="rectangle15" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_pvrmb")
+material = SubResource("ShaderMaterial_cmo2u")
 position = Vector2(864, 636)
 left = NodePath("../Button/button35/tbutton35")
 top = NodePath("../Button/button29/tbutton29")
@@ -666,7 +738,7 @@ right = NodePath("../Button/button36/tbutton36")
 bottom = NodePath("../Button/button42/tbutton42")
 
 [node name="rectangle14" parent="." node_paths=PackedStringArray("left", "top", "right", "bottom") instance=ExtResource("5_ripcj")]
-material = SubResource("ShaderMaterial_u87v8")
+material = SubResource("ShaderMaterial_wgscw")
 position = Vector2(672, 636)
 left = NodePath("../Button/button34/tbutton34")
 top = NodePath("../Button/button28/tbutton28")

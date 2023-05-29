@@ -1,6 +1,7 @@
 shader_type canvas_item;
 
 uniform vec4 player;
+uniform bool noise = false;
 
 float random (vec2 uv) {
     return fract(sin(dot(uv.xy,
@@ -10,16 +11,24 @@ float random (vec2 uv) {
 
 void fragment() {
 	// Place fragment code here.
-	float random_number = random(UV);
 	
-	if( random_number > 0.3f)
+	if(noise)
 	{
-		COLOR = vec4(0.0, 0.0, 0.0, 0.0);
-	}
+		float random_number = random(UV);
+		
+		if( random_number > 0.5f)
+		{
+			COLOR = vec4(0.0, 0.0, 0.0, 0.0);
+		}
+		else
+		{
+			COLOR = player;
+		}
+	}	
 	else
 	{
 		COLOR = player;
 	}
 	
-	
+
 }

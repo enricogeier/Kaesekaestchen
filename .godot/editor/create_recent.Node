@@ -1,9 +1,12 @@
-TextureRect
+Sprite2D
 Node2D
+Timer
+CPUParticles2D
+GPUParticles2D
+TextureRect
 Button
 VBoxContainer
 Node
-Sprite2D
 AnimatedSprite2D
 TextureButton
 Control

@@ -8,6 +8,7 @@
 resource_local_to_scene = true
 shader = ExtResource("1_fwebo")
 shader_parameter/player = null
+shader_parameter/noise = false
 
 [node name="rectangle" type="Sprite2D" groups=["Rectangle"]]
 z_index = -1

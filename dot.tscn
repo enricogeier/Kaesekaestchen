@@ -1,12 +1,21 @@
-[gd_scene load_steps=5 format=3 uid="uid://bs357e2r7glt3"]
+[gd_scene load_steps=8 format=3 uid="uid://bs357e2r7glt3"]
 
 [ext_resource type="Shader" path="res://dots.gdshader" id="1_bf36b"]
 [ext_resource type="Texture2D" uid="uid://fkt0hbiuh2rl" path="res://textures/colors/grey_dot.png" id="1_bip13"]
 [ext_resource type="Script" path="res://dot.gd" id="3_2nbnh"]
+[ext_resource type="Shader" path="res://Particle.gdshader" id="4_xbget"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_h4hjv"]
 shader = ExtResource("1_bf36b")
 shader_parameter/dot_color = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lusic"]
+shader = ExtResource("4_xbget")
+shader_parameter/draw = false
+
+[sub_resource type="Curve" id="Curve_nefms"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.994652, 0.0181818), 0.0, 0.0, 0, 0]
+point_count = 2
 
 [node name="Sprite2D" type="Sprite2D"]
 material = SubResource("ShaderMaterial_h4hjv")
@@ -14,3 +23,24 @@ position = Vector2(384, 156)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_bip13")
 script = ExtResource("3_2nbnh")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+material = SubResource("ShaderMaterial_lusic")
+emitting = false
+amount = 50
+lifetime = 2.0
+explosiveness = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 500.0
+initial_velocity_max = 500.0
+scale_amount_min = 15.0
+scale_amount_max = 15.0
+scale_amount_curve = SubResource("Curve_nefms")
+color = Color(0.992157, 1, 1, 1)
+
+[node name="emit_timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="timeout" from="emit_timer" to="." method="_on_emit_timer_timeout"]

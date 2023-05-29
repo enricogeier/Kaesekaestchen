@@ -13,6 +13,7 @@ var time = 90
 func check():
 	if !alreadyDrawn && left != null && top != null && right != null && bottom != null:
 		if left.already_selected && top.already_selected && right.already_selected && bottom.already_selected:
-			View.setColor(self, Stats.player_on_turn.color)
+			View.setNoiseColor(self, Stats.player_on_turn.color)
 			Stats.player_on_turn.rectangles += 1
 			self.alreadyDrawn = true
+			Stats.checkRectangle()
