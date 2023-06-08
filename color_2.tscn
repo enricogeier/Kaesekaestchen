@@ -1,7 +1,170 @@
-[gd_scene format=3 uid="uid://d0gw8aroovdgf"]
+[gd_scene load_steps=19 format=3 uid="uid://d0gw8aroovdgf"]
+
+[ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_14xie"]
+[ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_dl2b1"]
+[ext_resource type="Texture2D" uid="uid://d3hsf1jqfh5uy" path="res://textures/arrow_default.png" id="3_hfmlb"]
+[ext_resource type="Texture2D" uid="uid://cq52fmwnc44at" path="res://textures/blue_arrow.png" id="4_5gir5"]
+[ext_resource type="Texture2D" uid="uid://dud63bf6b5qdf" path="res://textures/okay.png" id="5_3lepr"]
+[ext_resource type="Texture2D" uid="uid://ixygv1sruy6u" path="res://textures/select_color.png" id="5_w6h1q"]
+[ext_resource type="Shader" path="res://PlayerColor.gdshader" id="6_duuow"]
+[ext_resource type="Texture2D" uid="uid://duhh418m87w3e" path="res://textures/okay_hover.png" id="6_q20gr"]
+[ext_resource type="Texture2D" uid="uid://2ut8dcjcpo3o" path="res://textures/colors/chosen_color.png" id="6_uvyno"]
+[ext_resource type="Script" path="res://chosen_color.gd" id="8_4qc3y"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mpucu"]
+shader = ExtResource("1_14xie")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_yhdnp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q7nhw"]
+resource_local_to_scene = true
+shader = ExtResource("6_duuow")
+shader_parameter/color = Vector3(0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2fn37"]
+resource_local_to_scene = true
+shader = ExtResource("6_duuow")
+shader_parameter/color = Vector3(0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fbawa"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fwhfl"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_oxkev"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_a6f0m"]
+resource_local_to_scene = true
 
 [node name="color_2" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 904.0
+offset_bottom = 736.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_mpucu")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("PlaceholderTexture2D_yhdnp")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 904.0
+offset_bottom = 736.0
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_bottom = 100
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="back_button" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer" instance=ExtResource("2_dl2b1")]
+layout_mode = 2
+texture_normal = ExtResource("3_hfmlb")
+texture_hover = ExtResource("4_5gir5")
+texture_focused = ExtResource("4_5gir5")
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 211
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer2"]
+layout_mode = 2
+texture = ExtResource("5_w6h1q")
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 50
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 211
+theme_override_constants/v_separation = 50
+columns = 2
+
+[node name="chosen_color1" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_q7nhw")
+layout_mode = 2
+texture = ExtResource("6_uvyno")
+stretch_mode = 3
+script = ExtResource("8_4qc3y")
+
+[node name="chosen_color2" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_2fn37")
+layout_mode = 2
+texture = ExtResource("6_uvyno")
+stretch_mode = 3
+script = ExtResource("8_4qc3y")
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 75
+columns = 2
+
+[node name="a1l" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+material = SubResource("ShaderMaterial_fbawa")
+layout_mode = 2
+texture_normal = ExtResource("3_hfmlb")
+texture_hover = ExtResource("4_5gir5")
+stretch_mode = 3
+
+[node name="a1r" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+material = SubResource("ShaderMaterial_fwhfl")
+layout_mode = 2
+texture_normal = ExtResource("3_hfmlb")
+texture_hover = ExtResource("4_5gir5")
+flip_h = true
+
+[node name="GridContainer2" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 75
+columns = 2
+
+[node name="a2l" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer2" instance=ExtResource("2_dl2b1")]
+material = SubResource("ShaderMaterial_oxkev")
+layout_mode = 2
+texture_normal = ExtResource("3_hfmlb")
+texture_hover = ExtResource("4_5gir5")
+stretch_mode = 3
+
+[node name="a2r" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer2" instance=ExtResource("2_dl2b1")]
+material = SubResource("ShaderMaterial_a6f0m")
+layout_mode = 2
+texture_normal = ExtResource("3_hfmlb")
+texture_hover = ExtResource("4_5gir5")
+flip_h = true
+
+[node name="ok1" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+layout_mode = 2
+texture_normal = ExtResource("5_3lepr")
+texture_hover = ExtResource("6_q20gr")
+texture_focused = ExtResource("6_q20gr")
+
+[node name="ok2" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+layout_mode = 2
+texture_normal = ExtResource("5_3lepr")
+texture_hover = ExtResource("6_q20gr")
+texture_focused = ExtResource("6_q20gr")

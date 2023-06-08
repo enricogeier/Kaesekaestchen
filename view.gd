@@ -2,6 +2,9 @@ extends Node
 
 var time = 0
 
+func setPlayerColor(node, color):
+	node.material.set("shader_param/color", color)
+
 func setDraw(node):
 	node.material.set("shader_param/draw", true)
 

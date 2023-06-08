@@ -1,11 +1,12 @@
-Control
-Node2D
-TextureRect
-TextureButton
 MarginContainer
+CenterContainer
+GridContainer
+TextureButton
+TextureRect
 HBoxContainer
 VBoxContainer
-CenterContainer
+Control
+Node2D
 Sprite2D
 Button
 MenuButton
