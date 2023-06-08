@@ -1,0 +1,116 @@
+[gd_scene load_steps=14 format=3 uid="uid://bi0ughilx11nx"]
+
+[ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_lm634"]
+[ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_eg3bl"]
+[ext_resource type="Texture2D" uid="uid://bs857e52l4kbp" path="res://textures/select_mode.png" id="2_gcb1k"]
+[ext_resource type="Texture2D" uid="uid://d3hsf1jqfh5uy" path="res://textures/arrow_default.png" id="3_osxi2"]
+[ext_resource type="Texture2D" uid="uid://cq52fmwnc44at" path="res://textures/blue_arrow.png" id="4_itom0"]
+[ext_resource type="Texture2D" uid="uid://b1ok7xeiftrq5" path="res://textures/2_player.png" id="5_vhma0"]
+[ext_resource type="Texture2D" uid="uid://bsuj7n4q2syjw" path="res://textures/3_player.png" id="6_et15i"]
+[ext_resource type="Texture2D" uid="uid://ddth0nqfx0ot3" path="res://textures/2_player _hover.png" id="7_jc8yo"]
+[ext_resource type="Texture2D" uid="uid://b6s0hc47moldi" path="res://textures/4_player.png" id="7_yfrgv"]
+[ext_resource type="Texture2D" uid="uid://b3i078ewnpt2l" path="res://textures/3_player _hover.png" id="9_kkxau"]
+[ext_resource type="Texture2D" uid="uid://dhstmgy1lnnwt" path="res://textures/4_player _hover.png" id="11_go6w3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sqedx"]
+resource_local_to_scene = true
+shader = ExtResource("1_lm634")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_713ob"]
+
+[node name="select_mode" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 577.0
+offset_top = 181.0
+offset_right = 1481.0
+offset_bottom = 917.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_sqedx")
+layout_mode = 2
+offset_right = 904.0
+offset_bottom = 736.0
+mouse_filter = 2
+texture = SubResource("PlaceholderTexture2D_713ob")
+metadata/_edit_lock_ = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 275.0
+offset_top = 23.0
+offset_right = 747.0
+offset_bottom = 140.0
+texture = ExtResource("2_gcb1k")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 385
+theme_override_constants/margin_bottom = 30
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+metadata/_edit_lock_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+metadata/_edit_lock_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="back_button" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer" instance=ExtResource("2_eg3bl")]
+layout_mode = 2
+texture_normal = ExtResource("3_osxi2")
+texture_hover = ExtResource("4_itom0")
+texture_focused = ExtResource("4_itom0")
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 150
+metadata/_edit_lock_ = true
+
+[node name="2P" parent="MarginContainer/VBoxContainer/MarginContainer2" instance=ExtResource("2_eg3bl")]
+layout_mode = 2
+texture_normal = ExtResource("5_vhma0")
+texture_hover = ExtResource("7_jc8yo")
+texture_focused = ExtResource("7_jc8yo")
+
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 50
+metadata/_edit_lock_ = true
+
+[node name="3P" parent="MarginContainer/VBoxContainer/MarginContainer3" instance=ExtResource("2_eg3bl")]
+layout_mode = 2
+texture_normal = ExtResource("6_et15i")
+texture_hover = ExtResource("9_kkxau")
+texture_focused = ExtResource("9_kkxau")
+
+[node name="MarginContainer4" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 50
+metadata/_edit_lock_ = true
+
+[node name="4P" parent="MarginContainer/VBoxContainer/MarginContainer4" instance=ExtResource("2_eg3bl")]
+layout_mode = 2
+texture_normal = ExtResource("7_yfrgv")
+texture_hover = ExtResource("11_go6w3")
+texture_focused = ExtResource("11_go6w3")
