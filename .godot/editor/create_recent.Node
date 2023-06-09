@@ -1,7 +1,9 @@
-MarginContainer
-CenterContainer
-GridContainer
 TextureButton
+Label
+GridContainer
+GridMap
+CenterContainer
+MarginContainer
 TextureRect
 HBoxContainer
 VBoxContainer

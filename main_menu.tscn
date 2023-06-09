@@ -1,6 +1,5 @@
-[gd_scene load_steps=19 format=3 uid="uid://4retsmiwryg"]
+[gd_scene load_steps=18 format=3 uid="uid://4retsmiwryg"]
 
-[ext_resource type="PackedScene" uid="uid://xosavy51h11y" path="res://MenuButton.tscn" id="1_2yu0c"]
 [ext_resource type="Script" path="res://main_menu.gd" id="1_eahfl"]
 [ext_resource type="Texture2D" uid="uid://dhwug3in8dsov" path="res://textures/Logo.png" id="2_k6jbt"]
 [ext_resource type="Shader" path="res://black.gdshader" id="2_s0bt1"]
@@ -59,27 +58,6 @@ texture = ExtResource("2_k6jbt")
 [node name="position" type="Node2D" parent="."]
 position = Vector2(869, 351)
 scale = Vector2(3, 3)
-
-[node name="VBoxContainer" type="VBoxContainer" parent="position"]
-offset_left = 275.0
-offset_top = 104.333
-offset_right = 315.0
-offset_bottom = 205.333
-alignment = 1
-
-[node name="Button01" parent="position/VBoxContainer" instance=ExtResource("1_2yu0c")]
-layout_mode = 2
-text = "2
-"
-
-[node name="Button02" parent="position/VBoxContainer" instance=ExtResource("1_2yu0c")]
-layout_mode = 2
-text = "3
-"
-
-[node name="Button03" parent="position/VBoxContainer" instance=ExtResource("1_2yu0c")]
-layout_mode = 2
-text = "4"
 
 [node name="button_position" type="Control" parent="."]
 layout_mode = 3

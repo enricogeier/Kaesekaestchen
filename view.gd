@@ -23,3 +23,4 @@ func setColor(node, color):
 
 func changeDotColor(node, color):
 	node.material.set("shader_param/dot_color", color)
+

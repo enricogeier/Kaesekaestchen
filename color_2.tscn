@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://d0gw8aroovdgf"]
+[gd_scene load_steps=23 format=3 uid="uid://d0gw8aroovdgf"]
 
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_14xie"]
 [ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_dl2b1"]
@@ -10,6 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://duhh418m87w3e" path="res://textures/okay_hover.png" id="6_q20gr"]
 [ext_resource type="Texture2D" uid="uid://2ut8dcjcpo3o" path="res://textures/colors/chosen_color.png" id="6_uvyno"]
 [ext_resource type="Script" path="res://chosen_color.gd" id="8_4qc3y"]
+[ext_resource type="Shader" path="res://ok_button.gdshader" id="9_bobyc"]
+[ext_resource type="Script" path="res://Label.gd" id="12_5ej3i"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_mpucu"]
 shader = ExtResource("1_14xie")
@@ -37,6 +39,11 @@ resource_local_to_scene = true
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_a6f0m"]
 resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_e8mcj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cdarl"]
+shader = ExtResource("9_bobyc")
 
 [node name="color_2" type="Control"]
 layout_mode = 3
@@ -157,14 +164,30 @@ texture_normal = ExtResource("3_hfmlb")
 texture_hover = ExtResource("4_5gir5")
 flip_h = true
 
-[node name="ok1" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/margin_top = 50
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 15
+
+[node name="ok2" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+material = SubResource("ShaderMaterial_e8mcj")
+layout_mode = 2
+keep_pressed_outside = true
 texture_normal = ExtResource("5_3lepr")
 texture_hover = ExtResource("6_q20gr")
 texture_focused = ExtResource("6_q20gr")
 
-[node name="ok2" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer" instance=ExtResource("2_dl2b1")]
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer/GridContainer/ok2"]
+material = SubResource("ShaderMaterial_cdarl")
 layout_mode = 2
-texture_normal = ExtResource("5_3lepr")
-texture_hover = ExtResource("6_q20gr")
-texture_focused = ExtResource("6_q20gr")
+offset_top = 49.0
+offset_right = 200.0
+offset_bottom = 75.0
+text = "      equal colors found!"
+script = ExtResource("12_5ej3i")

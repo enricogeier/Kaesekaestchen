@@ -1,7 +1,235 @@
-[gd_scene format=3 uid="uid://dmjgja0grou0f"]
+[gd_scene load_steps=25 format=3 uid="uid://dmjgja0grou0f"]
+
+[ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_vop21"]
+[ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_memun"]
+[ext_resource type="Texture2D" uid="uid://d3hsf1jqfh5uy" path="res://textures/arrow_default.png" id="3_pyvl8"]
+[ext_resource type="Texture2D" uid="uid://cq52fmwnc44at" path="res://textures/blue_arrow.png" id="4_xrqj0"]
+[ext_resource type="Texture2D" uid="uid://ixygv1sruy6u" path="res://textures/select_color.png" id="5_dav1w"]
+[ext_resource type="Shader" path="res://PlayerColor.gdshader" id="6_nh5br"]
+[ext_resource type="Texture2D" uid="uid://2ut8dcjcpo3o" path="res://textures/colors/chosen_color.png" id="7_lql00"]
+[ext_resource type="Script" path="res://chosen_color.gd" id="8_mfqk0"]
+[ext_resource type="Texture2D" uid="uid://dud63bf6b5qdf" path="res://textures/okay.png" id="9_xm1vf"]
+[ext_resource type="Texture2D" uid="uid://duhh418m87w3e" path="res://textures/okay_hover.png" id="10_efeq3"]
+[ext_resource type="Shader" path="res://ok_button.gdshader" id="11_kjxx1"]
+[ext_resource type="Script" path="res://Label.gd" id="12_mwir1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v2cra"]
+shader = ExtResource("1_vop21")
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uaeo3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x3dwx"]
+resource_local_to_scene = true
+shader = ExtResource("6_nh5br")
+shader_parameter/color = Quaternion(0, 0, 0, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_t6eop"]
+resource_local_to_scene = true
+shader = ExtResource("6_nh5br")
+shader_parameter/color = Quaternion(0, 0, 0, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ujfyr"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cbbso"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j81e6"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v306u"]
+resource_local_to_scene = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0lc72"]
+resource_local_to_scene = true
+shader = ExtResource("6_nh5br")
+shader_parameter/color = Quaternion(0, 0, 0, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b7fqt"]
+resource_local_to_scene = true
+shader = ExtResource("6_nh5br")
+shader_parameter/color = Vector3(0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g5vca"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o6hrg"]
+shader = ExtResource("11_kjxx1")
 
 [node name="color_3" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 904.0
+offset_bottom = 736.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_v2cra")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("PlaceholderTexture2D_uaeo3")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 904.0
+offset_bottom = 736.0
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 30
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 15
+
+[node name="back_button" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer" instance=ExtResource("2_memun")]
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+texture_focused = ExtResource("4_xrqj0")
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 200
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer2"]
+layout_mode = 2
+texture = ExtResource("5_dav1w")
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 0
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 140
+theme_override_constants/v_separation = 50
+columns = 2
+
+[node name="chosen_color1" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_x3dwx")
+layout_mode = 2
+texture = ExtResource("7_lql00")
+stretch_mode = 3
+script = ExtResource("8_mfqk0")
+
+[node name="chosen_color2" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_t6eop")
+layout_mode = 2
+texture = ExtResource("7_lql00")
+stretch_mode = 3
+script = ExtResource("8_mfqk0")
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 75
+columns = 2
+
+[node name="a1l" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_ujfyr")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+stretch_mode = 3
+
+[node name="a1r" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_cbbso")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+flip_h = true
+
+[node name="GridContainer2" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 75
+columns = 2
+
+[node name="a2l" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer2" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_j81e6")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+stretch_mode = 3
+
+[node name="a2r" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer2" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_v306u")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+flip_h = true
+
+[node name="chosen_color3" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_0lc72")
+layout_mode = 2
+texture = ExtResource("7_lql00")
+stretch_mode = 3
+script = ExtResource("8_mfqk0")
+
+[node name="dump" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_b7fqt")
+layout_mode = 2
+stretch_mode = 3
+script = ExtResource("8_mfqk0")
+
+[node name="GridContainer3" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 75
+columns = 2
+
+[node name="a3l" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer3" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_j81e6")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+stretch_mode = 3
+
+[node name="a3r" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/GridContainer3" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_v306u")
+layout_mode = 2
+texture_normal = ExtResource("3_pyvl8")
+texture_hover = ExtResource("4_xrqj0")
+flip_h = true
+
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 50
+
+[node name="CenterContainer" type="CenterContainer" parent="MarginContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 15
+
+[node name="ok3" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer/GridContainer" instance=ExtResource("2_memun")]
+material = SubResource("ShaderMaterial_g5vca")
+layout_mode = 2
+keep_pressed_outside = true
+texture_normal = ExtResource("9_xm1vf")
+texture_hover = ExtResource("10_efeq3")
+texture_focused = ExtResource("10_efeq3")
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer3/CenterContainer/GridContainer/ok3"]
+material = SubResource("ShaderMaterial_o6hrg")
+layout_mode = 2
+offset_top = 49.0
+offset_right = 200.0
+offset_bottom = 75.0
+text = "      equal colors found!"
+script = ExtResource("12_mwir1")
