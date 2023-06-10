@@ -1,5 +1,6 @@
-[gd_scene load_steps=25 format=3 uid="uid://bhmd872c4jq0t"]
+[gd_scene load_steps=27 format=3 uid="uid://bhmd872c4jq0t"]
 
+[ext_resource type="Shader" path="res://main_screen_button.gdshader" id="1_qbh2h"]
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_vhf38"]
 [ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_r8ku8"]
 [ext_resource type="Texture2D" uid="uid://d3hsf1jqfh5uy" path="res://textures/arrow_default.png" id="3_mj77k"]
@@ -12,6 +13,10 @@
 [ext_resource type="Texture2D" uid="uid://duhh418m87w3e" path="res://textures/okay_hover.png" id="10_xxy3w"]
 [ext_resource type="Shader" path="res://ok_button.gdshader" id="11_lp8jh"]
 [ext_resource type="Script" path="res://Label.gd" id="12_3htlp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hvik5"]
+resource_local_to_scene = true
+shader = ExtResource("1_qbh2h")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_d4ghr"]
 shader = ExtResource("1_vhf38")
@@ -51,11 +56,14 @@ shader = ExtResource("6_8ftff")
 shader_parameter/color = Vector3(0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_qxqai"]
+resource_local_to_scene = true
+shader = ExtResource("1_qbh2h")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jga75"]
 shader = ExtResource("11_lp8jh")
 
 [node name="color_4" type="Control"]
+material = SubResource("ShaderMaterial_hvik5")
 layout_mode = 3
 anchors_preset = 0
 offset_right = 904.0

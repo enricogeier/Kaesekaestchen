@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://d0gw8aroovdgf"]
+[gd_scene load_steps=24 format=3 uid="uid://d0gw8aroovdgf"]
 
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_14xie"]
 [ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_dl2b1"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://2ut8dcjcpo3o" path="res://textures/colors/chosen_color.png" id="6_uvyno"]
 [ext_resource type="Script" path="res://chosen_color.gd" id="8_4qc3y"]
 [ext_resource type="Shader" path="res://ok_button.gdshader" id="9_bobyc"]
+[ext_resource type="Shader" path="res://main_screen_button.gdshader" id="9_rr20o"]
 [ext_resource type="Script" path="res://Label.gd" id="12_5ej3i"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_mpucu"]
@@ -41,6 +42,8 @@ resource_local_to_scene = true
 resource_local_to_scene = true
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_e8mcj"]
+resource_local_to_scene = true
+shader = ExtResource("9_rr20o")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_cdarl"]
 shader = ExtResource("9_bobyc")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://dmjgja0grou0f"]
+[gd_scene load_steps=26 format=3 uid="uid://dmjgja0grou0f"]
 
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_vop21"]
 [ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_memun"]
@@ -8,6 +8,7 @@
 [ext_resource type="Shader" path="res://PlayerColor.gdshader" id="6_nh5br"]
 [ext_resource type="Texture2D" uid="uid://2ut8dcjcpo3o" path="res://textures/colors/chosen_color.png" id="7_lql00"]
 [ext_resource type="Script" path="res://chosen_color.gd" id="8_mfqk0"]
+[ext_resource type="Shader" path="res://main_screen_button.gdshader" id="9_sioiw"]
 [ext_resource type="Texture2D" uid="uid://dud63bf6b5qdf" path="res://textures/okay.png" id="9_xm1vf"]
 [ext_resource type="Texture2D" uid="uid://duhh418m87w3e" path="res://textures/okay_hover.png" id="10_efeq3"]
 [ext_resource type="Shader" path="res://ok_button.gdshader" id="11_kjxx1"]
@@ -51,6 +52,7 @@ shader = ExtResource("6_nh5br")
 shader_parameter/color = Vector3(0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g5vca"]
+shader = ExtResource("9_sioiw")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o6hrg"]
 shader = ExtResource("11_kjxx1")

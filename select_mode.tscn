@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://bi0ughilx11nx"]
+[gd_scene load_steps=18 format=3 uid="uid://bi0ughilx11nx"]
 
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_lm634"]
 [ext_resource type="PackedScene" uid="uid://d1nup2woc53yn" path="res://TextureButton_main_scene.tscn" id="2_eg3bl"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cq52fmwnc44at" path="res://textures/blue_arrow.png" id="4_itom0"]
 [ext_resource type="Texture2D" uid="uid://b1ok7xeiftrq5" path="res://textures/2_player.png" id="5_vhma0"]
 [ext_resource type="Texture2D" uid="uid://bsuj7n4q2syjw" path="res://textures/3_player.png" id="6_et15i"]
+[ext_resource type="Shader" path="res://main_screen_button.gdshader" id="6_f7y3v"]
 [ext_resource type="Texture2D" uid="uid://ddth0nqfx0ot3" path="res://textures/2_player _hover.png" id="7_jc8yo"]
 [ext_resource type="Texture2D" uid="uid://b6s0hc47moldi" path="res://textures/4_player.png" id="7_yfrgv"]
 [ext_resource type="Texture2D" uid="uid://b3i078ewnpt2l" path="res://textures/3_player _hover.png" id="9_kkxau"]
@@ -17,6 +18,18 @@ resource_local_to_scene = true
 shader = ExtResource("1_lm634")
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_713ob"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_adq4o"]
+resource_local_to_scene = true
+shader = ExtResource("6_f7y3v")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_srw8q"]
+resource_local_to_scene = true
+shader = ExtResource("6_f7y3v")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d1n4b"]
+resource_local_to_scene = true
+shader = ExtResource("6_f7y3v")
 
 [node name="select_mode" type="Control"]
 layout_mode = 3
@@ -86,6 +99,7 @@ theme_override_constants/margin_top = 150
 theme_override_constants/margin_right = 0
 
 [node name="2P" parent="MarginContainer/VBoxContainer/MarginContainer2" instance=ExtResource("2_eg3bl")]
+material = SubResource("ShaderMaterial_adq4o")
 layout_mode = 2
 texture_normal = ExtResource("5_vhma0")
 texture_hover = ExtResource("7_jc8yo")
@@ -98,6 +112,7 @@ theme_override_constants/margin_left = 0
 theme_override_constants/margin_top = 50
 
 [node name="3P" parent="MarginContainer/VBoxContainer/MarginContainer3" instance=ExtResource("2_eg3bl")]
+material = SubResource("ShaderMaterial_srw8q")
 layout_mode = 2
 texture_normal = ExtResource("6_et15i")
 texture_hover = ExtResource("9_kkxau")
@@ -110,6 +125,7 @@ theme_override_constants/margin_left = 0
 theme_override_constants/margin_top = 50
 
 [node name="4P" parent="MarginContainer/VBoxContainer/MarginContainer4" instance=ExtResource("2_eg3bl")]
+material = SubResource("ShaderMaterial_d1n4b")
 layout_mode = 2
 texture_normal = ExtResource("7_yfrgv")
 texture_hover = ExtResource("11_go6w3")
