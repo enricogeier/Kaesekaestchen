@@ -17,6 +17,10 @@ func setNoiseColor(node, color):
 	node.material.set("shader_param/noise", true)
 	node.material.set("shader_param/player", color)
 
+func resetNoiseColor(node, color):
+	node.material.set("shader_param/noise", false)
+	node.material.set("shader_param/player", color)
+
 
 func setColor(node, color):
 	node.material.set("shader_param/player", color)

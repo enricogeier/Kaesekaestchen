@@ -10,7 +10,6 @@ func _ready():
 	print("something")
 
 
-
 func _on_pressed():
 	parent.hide()
 	world.get_node("burger_menu").show()

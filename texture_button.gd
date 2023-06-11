@@ -5,6 +5,13 @@ extends TextureButton
 
 var already_selected = false
 
+func _ready():
+	Stats.reset_game.connect(reset_color)
+
+
+func reset_color():
+	View.resetNoiseColor(self.get_parent(), Color(0.5, 0.5, 0.5, 1.0))
+
 func _on_pressed():
 	
 	if !already_selected:

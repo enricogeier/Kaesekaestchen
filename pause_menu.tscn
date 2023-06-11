@@ -5,6 +5,7 @@
 [ext_resource type="Script" path="res://pause_menu.gd" id="3_c558k"]
 
 [node name="TextureButton" type="TextureButton"]
+process_mode = 3
 offset_left = 20.0
 offset_top = 20.0
 offset_right = 36.0

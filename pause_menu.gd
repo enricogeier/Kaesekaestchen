@@ -15,6 +15,14 @@ func _on_pressed():
 
 func _process(_delta):
 	if Input.is_action_just_pressed("Pause"):
-		get_tree().paused = true
-		self.hide()
-		self.pause_gui.show()
+		if get_tree().paused == false:
+			get_tree().paused = true
+			self.hide()
+			self.pause_gui.show()
+			return
+		
+		if get_tree().paused == true:
+			var pause_gui = get_parent().get_node("pause_gui")
+			var button_continue = pause_gui.get_node("MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/continue")
+			button_continue._on_pressed()
+			return

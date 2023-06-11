@@ -25,6 +25,7 @@ texture = ExtResource("1_bip13")
 script = ExtResource("3_2nbnh")
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+process_mode = 3
 material = SubResource("ShaderMaterial_lusic")
 emitting = false
 amount = 50

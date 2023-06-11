@@ -1,5 +1,6 @@
-[gd_scene load_steps=14 format=3 uid="uid://dmrl8d87iicts"]
+[gd_scene load_steps=19 format=3 uid="uid://dmrl8d87iicts"]
 
+[ext_resource type="Script" path="res://pause_gui.gd" id="1_n80wm"]
 [ext_resource type="Shader" path="res://dark_grey.gdshader" id="1_vo2ii"]
 [ext_resource type="Texture2D" uid="uid://b8cqvnk7bioke" path="res://textures/pause.png" id="2_u0ur4"]
 [ext_resource type="Texture2D" uid="uid://c1noqxlmbsmid" path="res://textures/continue.png" id="3_1b3fu"]
@@ -8,7 +9,10 @@
 [ext_resource type="Script" path="res://continue.gd" id="5_563nw"]
 [ext_resource type="Texture2D" uid="uid://3cs342mnktet" path="res://textures/back_to_menu.png" id="5_sf6dw"]
 [ext_resource type="Texture2D" uid="uid://bo02h8yc32rbi" path="res://textures/back_to_menu_hover.png" id="6_jy8ab"]
+[ext_resource type="Texture2D" uid="uid://cx4n5bmu3giw5" path="res://textures/restart.png" id="7_e3bdi"]
 [ext_resource type="Script" path="res://return_menu.gd" id="8_0u4x4"]
+[ext_resource type="Texture2D" uid="uid://dsf83h28y4ktn" path="res://textures/restart_hover.png" id="8_xycop"]
+[ext_resource type="Script" path="res://restart.gd" id="9_h5ww7"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_prgby"]
 shader = ExtResource("1_vo2ii")
@@ -17,6 +21,9 @@ shader = ExtResource("1_vo2ii")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_j1tiw"]
 resource_local_to_scene = true
+shader = ExtResource("3_jblwf")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bmb63"]
 shader = ExtResource("3_jblwf")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_dgabr"]
@@ -30,6 +37,7 @@ offset_left = 540.0
 offset_top = 181.0
 offset_right = 1444.0
 offset_bottom = 917.0
+script = ExtResource("1_n80wm")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 material = SubResource("ShaderMaterial_prgby")
@@ -42,6 +50,7 @@ grow_vertical = 2
 texture = SubResource("PlaceholderTexture2D_ds1y7")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
 offset_right = 904.0
 offset_bottom = 736.0
 theme_override_constants/margin_left = 30
@@ -81,6 +90,13 @@ texture_normal = ExtResource("3_1b3fu")
 texture_hover = ExtResource("4_4mi74")
 script = ExtResource("5_563nw")
 
+[node name="restart" type="TextureButton" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
+material = SubResource("ShaderMaterial_bmb63")
+layout_mode = 2
+texture_normal = ExtResource("7_e3bdi")
+texture_hover = ExtResource("8_xycop")
+script = ExtResource("9_h5ww7")
+
 [node name="return_menu" type="TextureButton" parent="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer"]
 material = SubResource("ShaderMaterial_dgabr")
 layout_mode = 2
@@ -89,4 +105,5 @@ texture_hover = ExtResource("6_jy8ab")
 script = ExtResource("8_0u4x4")
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/continue" to="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/continue" method="_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/restart" to="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/restart" method="_on_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/return_menu" to="MarginContainer/VBoxContainer/MarginContainer2/CenterContainer/GridContainer/return_menu" method="_on_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://4retsmiwryg"]
+[gd_scene load_steps=19 format=3 uid="uid://4retsmiwryg"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_eahfl"]
 [ext_resource type="Texture2D" uid="uid://dhwug3in8dsov" path="res://textures/Logo.png" id="2_k6jbt"]
@@ -24,6 +24,10 @@ resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_t45pw"]
+resource_local_to_scene = true
+shader = ExtResource("6_jsbn0")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ejprh"]
 resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
@@ -116,6 +120,7 @@ offset_right = 1444.0
 offset_bottom = 917.0
 
 [node name="color_4" parent="." instance=ExtResource("14_8cc71")]
+material = SubResource("ShaderMaterial_ejprh")
 offset_left = 540.0
 offset_top = 181.0
 offset_right = 1444.0

@@ -1,14 +1,12 @@
 extends Node
 
-enum State
-{
-	PAUSE, END, PLAY
-}
+
 
 signal player_changed
 signal game_over
+signal reset_game
 
-var current_state = State.PLAY
+
 
 var amount_of_players = 2
 
@@ -20,10 +18,6 @@ var champion = []
 
 var rectangles = 0
 var totalAmountOfRectangles = 0
-
-func changeState(state):
-	if !(current_state == State.PAUSE && state == State.END):
-		current_state = state
 
 
 func checkRectangle():
@@ -37,7 +31,6 @@ func checkRectangle():
 			if i.rectangles == maxRectangles:
 				champion.append(i)
 		
-		changeState(State.END)
 		emit_signal("game_over")
 
 
@@ -52,6 +45,17 @@ func setNextPlayerOnTurn():
 		player_on_turn = players[player_on_turn.number + 1]
 	
 	emit_signal("player_changed")
+	
+
+func reset():
+	self.totalAmountOfRectangles = 0;
+	for player in players:
+		player.rectangles = 0
+	self.champion = []
+	self.player_on_turn = players[0]
+	
+	emit_signal("reset_game")
+	
 	
 
 func initialize(amount_of_players, players):
@@ -70,6 +74,8 @@ func initialize(amount_of_players, players):
 			self.rectangles = 32
 		4:
 			self.rectangles = 40
+	
+	self.reset()
 	
 	
 
