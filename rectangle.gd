@@ -14,6 +14,7 @@ func check():
 	if !alreadyDrawn && left != null && top != null && right != null && bottom != null:
 		if left.already_selected && top.already_selected && right.already_selected && bottom.already_selected:
 			View.setNoiseColor(self, Stats.player_on_turn.color)
+			$AnimationPlayer.play("draw_animation")
 			Stats.player_on_turn.rectangles += 1
 			self.alreadyDrawn = true
 			Stats.checkRectangle()

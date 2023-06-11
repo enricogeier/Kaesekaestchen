@@ -12,6 +12,11 @@ float random (vec2 uv) {
 void fragment() {
 	// Place fragment code here.
 	
+	if(COLOR.a == 0.0f)
+	{
+		discard;
+	}
+	
 	if(noise)
 	{
 		float random_number = random(UV);

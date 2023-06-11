@@ -27,7 +27,7 @@ shader = ExtResource("6_jsbn0")
 resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ejprh"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ajy13"]
 resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
@@ -120,7 +120,7 @@ offset_right = 1444.0
 offset_bottom = 917.0
 
 [node name="color_4" parent="." instance=ExtResource("14_8cc71")]
-material = SubResource("ShaderMaterial_ejprh")
+material = SubResource("ShaderMaterial_ajy13")
 offset_left = 540.0
 offset_top = 181.0
 offset_right = 1444.0
