@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://1cqt5cryuqam"]
+
+[ext_resource type="Shader" path="res://square.gdshader" id="1_jlx45"]
+[ext_resource type="Texture2D" uid="uid://bepvxkn70je5e" path="res://textures/colors/green.png" id="1_ncn1h"]
+[ext_resource type="Script" path="res://square.gd" id="3_rk34p"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ww0hk"]
+resource_local_to_scene = true
+shader = ExtResource("1_jlx45")
+shader_parameter/color = null
+shader_parameter/do_circle = false
+shader_parameter/random_number = 0
+
+[node name="square" type="Sprite2D"]
+z_index = -1
+material = SubResource("ShaderMaterial_ww0hk")
+texture = ExtResource("1_ncn1h")
+script = ExtResource("3_rk34p")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

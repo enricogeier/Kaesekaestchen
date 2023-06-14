@@ -2,6 +2,16 @@ extends Node
 
 var time = 0
 
+func setSquareCircle(node, circle):
+	node.material.set("shader_param/do_circle", circle)
+
+func setSquareRandomNumber(node, random_number):
+	node.material.set("shader_param/random_number", random_number)
+
+func setSquareColor(node, color):
+	node.material.set("shader_param/color", color)
+
+
 func setPlayerColor(node, color):
 	node.material.set("shader_param/color", color)
 

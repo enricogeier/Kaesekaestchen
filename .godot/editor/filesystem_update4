@@ -9,6 +9,13 @@ res://pause_gui.tscn
 res://dot.tscn
 res://texture_button.tscn
 res://rectangle.tscn
-res://PlayerColorShader.gdshader
-res://PlayerColor.gdshader
-res://rectangle.gd
+res://square.tscn
+res://dark_grey.gdshader
+res://select_mode.tscn
+res://square.gdshader
+res://square.gd
+res://view.gd
+res://square_game.tscn
+res://square_game.gd
+res://square_game.gdshader
+res://black.gdshader

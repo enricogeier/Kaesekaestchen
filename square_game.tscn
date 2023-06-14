@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://4g1amff4rf5u"]
+
+[ext_resource type="Shader" path="res://square_game.gdshader" id="1_7g3tv"]
+[ext_resource type="Script" path="res://square_game.gd" id="1_kbf77"]
+[ext_resource type="Texture2D" uid="uid://bepvxkn70je5e" path="res://textures/colors/green.png" id="2_cdrvh"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vg7gt"]
+resource_local_to_scene = true
+shader = ExtResource("1_7g3tv")
+shader_parameter/do_circle = false
+shader_parameter/random_number = 0.0
+shader_parameter/color = null
+
+[node name="Square_Game" type="Sprite2D"]
+z_index = -50
+material = SubResource("ShaderMaterial_vg7gt")
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_cdrvh")
+script = ExtResource("1_kbf77")
