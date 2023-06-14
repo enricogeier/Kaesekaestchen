@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://4retsmiwryg"]
+[gd_scene load_steps=36 format=3 uid="uid://4retsmiwryg"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_eahfl"]
 [ext_resource type="Texture2D" uid="uid://dhwug3in8dsov" path="res://textures/Logo.png" id="2_k6jbt"]
@@ -29,179 +29,109 @@ shader = ExtResource("6_jsbn0")
 resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_he2fq"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ee0mg"]
 resource_local_to_scene = true
 shader = ExtResource("6_jsbn0")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_8cw2a"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lgpa4"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = false
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ihiqi"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_22bvf"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = false
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_bfcha"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i6qkk"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = false
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ts8cu"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2qrv1"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_onsat"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ukpjg"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = false
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_tlv6f"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_di5xu"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_6573v"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cy0wx"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_hmkqt"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2ag6q"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_nui5u"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_82owh"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_0owgi"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cwfg5"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_3j4fv"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ixkfm"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_iy18b"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_asi5c"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_yhri0"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wpbfd"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_m0buc"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i12cs"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
 shader_parameter/do_circle = true
 shader_parameter/random_number = 0
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_q1wc6"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_n2tqg"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = false
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_2g6be"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_52e1t"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_p2h6t"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_u1046"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_82jg1"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_owefp"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_8k06x"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_pqwgd"]
-resource_local_to_scene = true
-shader = ExtResource("15_7iql4")
-shader_parameter/color = Vector3(1, 1, 0)
-shader_parameter/do_circle = true
-shader_parameter/random_number = 0
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_lljfm"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q4j3l"]
 resource_local_to_scene = true
 shader = ExtResource("15_7iql4")
 shader_parameter/color = Vector3(1, 1, 0)
@@ -297,108 +227,88 @@ offset_right = 1444.0
 offset_bottom = 917.0
 
 [node name="color_4" parent="." instance=ExtResource("14_8cc71")]
-material = SubResource("ShaderMaterial_he2fq")
+material = SubResource("ShaderMaterial_ee0mg")
 offset_left = 540.0
 offset_top = 181.0
 offset_right = 1444.0
 offset_bottom = 917.0
 
 [node name="square" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_8cw2a")
+material = SubResource("ShaderMaterial_lgpa4")
 position = Vector2(990, 540)
 
 [node name="square3" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_ihiqi")
+material = SubResource("ShaderMaterial_22bvf")
 position = Vector2(990, 540)
 
 [node name="square4" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_bfcha")
+material = SubResource("ShaderMaterial_i6qkk")
 position = Vector2(990, 540)
 
 [node name="square5" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_ts8cu")
+material = SubResource("ShaderMaterial_2qrv1")
 position = Vector2(990, 540)
 
 [node name="square6" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_onsat")
+material = SubResource("ShaderMaterial_ukpjg")
 position = Vector2(990, 540)
 
 [node name="square7" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_tlv6f")
+material = SubResource("ShaderMaterial_di5xu")
 position = Vector2(990, 540)
 
 [node name="square8" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_6573v")
+material = SubResource("ShaderMaterial_cy0wx")
 position = Vector2(990, 540)
 
 [node name="square9" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_hmkqt")
+material = SubResource("ShaderMaterial_2ag6q")
 position = Vector2(990, 540)
 
 [node name="square10" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_nui5u")
+material = SubResource("ShaderMaterial_82owh")
 position = Vector2(990, 540)
 
 [node name="square11" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_0owgi")
+material = SubResource("ShaderMaterial_cwfg5")
 position = Vector2(990, 540)
 
 [node name="square12" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_3j4fv")
+material = SubResource("ShaderMaterial_ixkfm")
 position = Vector2(990, 540)
 
 [node name="square13" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_iy18b")
+material = SubResource("ShaderMaterial_asi5c")
 position = Vector2(990, 540)
 
 [node name="square14" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_yhri0")
+material = SubResource("ShaderMaterial_wpbfd")
 position = Vector2(990, 540)
 
 [node name="square15" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_m0buc")
+material = SubResource("ShaderMaterial_i12cs")
 position = Vector2(990, 540)
 
 [node name="square16" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_q1wc6")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
 
 [node name="square17" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_n2tqg")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
 
 [node name="square18" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_2g6be")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
 
 [node name="square19" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_52e1t")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
 
 [node name="square20" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_p2h6t")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
 
 [node name="square21" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_u1046")
+material = SubResource("ShaderMaterial_q4j3l")
 position = Vector2(990, 540)
-
-[node name="square22" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_82jg1")
-position = Vector2(990, 540)
-
-[node name="square23" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_owefp")
-position = Vector2(990, 540)
-
-[node name="square24" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_8k06x")
-position = Vector2(990, 540)
-
-[node name="square25" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_pqwgd")
-position = Vector2(990, 540)
-
-[node name="square2" parent="." instance=ExtResource("14_xnwvh")]
-material = SubResource("ShaderMaterial_lljfm")
-position = Vector2(1090, 540)

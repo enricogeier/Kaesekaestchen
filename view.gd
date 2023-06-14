@@ -2,6 +2,7 @@ extends Node
 
 var time = 0
 
+
 func setSquareCircle(node, circle):
 	node.material.set("shader_param/do_circle", circle)
 
