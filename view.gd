@@ -2,6 +2,11 @@ extends Node
 
 var time = 0
 
+func setHorizontal(node, condition):
+	node.material.set("shader_param/horizontal", condition)
+
+func setVertical(node, condition):
+	node.material.set("shader_param/vertical", condition)
 
 func setSquareCircle(node, circle):
 	node.material.set("shader_param/do_circle", circle)
@@ -16,8 +21,8 @@ func setSquareColor(node, color):
 func setPlayerColor(node, color):
 	node.material.set("shader_param/color", color)
 
-func setDraw(node):
-	node.material.set("shader_param/draw", true)
+func setDraw(node, condition):
+	node.material.set("shader_param/draw", condition)
 
 # x×(1−a)+y×a
 func mixAndSet(node, color1, color2, factor):

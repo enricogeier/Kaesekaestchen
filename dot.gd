@@ -20,8 +20,9 @@ func _ready():
 func _on_emit_timer_timeout():
 	
 	if Stats.champion.size() > 1:
-		View.setDraw($CPUParticles2D)
+		View.setDraw($CPUParticles2D, true)
 	else:
+		View.setDraw($CPUParticles2D, false)
 		$CPUParticles2D.color = Stats.champion[0].color
 	$CPUParticles2D.emitting = true
 

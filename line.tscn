@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://d3g7fq8nm8jci"]
+
+[ext_resource type="Shader" path="res://PlayerColorShader.gdshader" id="1_gcuyr"]
+[ext_resource type="Texture2D" uid="uid://cf0dhhib66ve0" path="res://textures/colors/grey-export.png" id="2_kxp7b"]
+[ext_resource type="PackedScene" uid="uid://3jtdse2ou3np" path="res://texture_button.tscn" id="3_swbs6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jj1s1"]
+resource_local_to_scene = true
+shader = ExtResource("1_gcuyr")
+shader_parameter/player = Vector4(0.5, 0.5, 0.5, 1)
+shader_parameter/noise = false
+
+[node name="line" type="Sprite2D"]
+texture_filter = 1
+material = SubResource("ShaderMaterial_jj1s1")
+position = Vector2(384, 252)
+scale = Vector2(0.0898424, 2.375)
+texture = ExtResource("2_kxp7b")
+metadata/_edit_lock_ = true
+
+[node name="tbutton" parent="." node_paths=PackedStringArray("rectangle_1") instance=ExtResource("3_swbs6")]
+offset_left = -178.0
+offset_right = 167.0
+rectangle_1 = NodePath("../../../rectangle01")
+metadata/_edit_use_anchors_ = true

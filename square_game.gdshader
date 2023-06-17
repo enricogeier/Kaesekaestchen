@@ -1,6 +1,8 @@
 shader_type canvas_item;
 
 uniform bool do_circle = false;
+uniform bool horizontal = false;
+uniform bool vertical = false;
 
 uniform float random_number = 0.0f;
 uniform vec4 color = vec4(1.0f, 1.0f, 1.0f, 1.0f);
@@ -16,11 +18,19 @@ void vertex()
 	{
 		VERTEX += vec2(sin(TIME) * 100.0f, cos(TIME) * 100.0f);
 	}
+	else if(horizontal)
+	{
+		VERTEX.x += sin(TIME) * 500.0f;
+	}
+	else if(vertical)
+	{
+		VERTEX.y += sin(TIME) * 500.0f;
+	}
 
 }
 
 void fragment() {
-	if(!do_circle)
+	if(!do_circle && !horizontal && !vertical)
 	{
 		
 		COLOR.r = clamp(abs(sin(TIME + random_number)), 0.0f, color.r);

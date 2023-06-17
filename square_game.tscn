@@ -8,8 +8,10 @@
 resource_local_to_scene = true
 shader = ExtResource("1_7g3tv")
 shader_parameter/do_circle = false
+shader_parameter/horizontal = false
+shader_parameter/vertical = false
 shader_parameter/random_number = 0.0
-shader_parameter/color = null
+shader_parameter/color = Quaternion(1, 1, 1, 1)
 
 [node name="Square_Game" type="Sprite2D"]
 z_index = -50

@@ -12,7 +12,7 @@ void fragment() {
 		uv_c = 0.01f;
 	}
 	
-	vec3 temp_color = vec3(1.0, 1.0, 1.0);
+	vec3 temp_color = vec3(0.65, 0.65, 0.65);
 	temp_color *= (1.0f - uv_c); 
 	
 	COLOR = vec4(mix(dot_color, temp_color, 0.75), alpha_value);

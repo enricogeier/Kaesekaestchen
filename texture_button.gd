@@ -7,10 +7,11 @@ var already_selected = false
 
 func _ready():
 	Stats.reset_game.connect(reset_color)
+	View.resetNoiseColor(self.get_parent(), Color(0.25, 0.25, 0.25, 0.75))
 
 
 func reset_color():
-	View.resetNoiseColor(self.get_parent(), Color(0.5, 0.5, 0.5, 1.0))
+	View.resetNoiseColor(self.get_parent(), Color(0.25, 0.25, 0.25, 0.75))
 
 func _on_pressed():
 	
@@ -29,9 +30,9 @@ func _on_pressed():
 
 func _on_mouse_entered():
 	if !already_selected:
-		View.mixAndSet(get_parent(), Stats.player_on_turn.color, Color(0.75, 0.75, 0.75, 1.0), 0.5)
+		View.mixAndSet(get_parent(), Stats.player_on_turn.color, Color(0.25, 0.25, 0.25, 0.75), 0.5)
 
 
 func _on_mouse_exited():
 	if !already_selected:
-		View.setColor(get_parent(), Color(0.5, 0.5, 0.5, 1.0))
+		View.setColor(get_parent(), Color(0.25, 0.25, 0.25, 0.75))
