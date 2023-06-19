@@ -3,6 +3,9 @@ shader_type canvas_item;
 uniform vec4 player;
 uniform bool noise = false;
 
+
+
+// source: https://www.thebookofshaders.com/
 float random (vec2 uv) {
     return fract(sin(dot(uv.xy,
         vec2(12.9898,78.233))) * 43758.5453123);
